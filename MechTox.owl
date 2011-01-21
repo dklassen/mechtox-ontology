@@ -1,0 +1,2150 @@
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+
+Ontology: <http://semanticscience.org/ontology/MechTox.owl>
+
+Import: <http://semanticscience.org/ontology/sio.owl>
+
+Annotations: 
+    <http://purl.org/dc/elements/1.1/description> "Mechanistic toxicology ontology to aid in capturing the mechanistic underpinnings of toxicology."@en,
+    <http://purl.org/dc/elements/1.1/creator> "Dana Klassen"@en
+
+AnnotationProperty: rdfs:seeAlso
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/creator>
+
+    
+AnnotationProperty: <http://semanticscience.org/resource/synonym>
+
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Class: <http://bio2rdf.org/term#term_e756f6aafafdef4debdb5e49bcbd3f11>
+
+    Annotations: 
+        rdfs:label "rat"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/birnlex#birnlex_160"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/organism#371565004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rapid_Antigen_Test"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Rat"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Organism.owl#birnlex_160"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/AIR/RAT"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0182-1835"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP14225-4"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D051381"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/H037."^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X79oz"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/371565004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/62787005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EO#EO_0007345"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FBsp#FBsp_00000020"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FBsp#FBsp_00000041"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FBsp#FBsp_00000278"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_000487"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Rat"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#RatusNorvegicus"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ee30aba77658513072504285f8bd2398>
+
+    Annotations: 
+        rdfs:label "autooxidizes"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_1516c59c34c63ee5ae34ebe363db1663>
+
+    Annotations: 
+        rdfs:label "organic anion transporter"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_86039b0ddadc45f72bbdd69a8847e147>
+
+    Annotations: 
+        rdfs:label "specificity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Diagnostic_Specificity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Specificity_of_Diagnostic_Test"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D012680"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/net/OCRe/statistics.owl#OCRE200090"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Specificity"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_35d7820adc22366b519c34ffe1c93e7d>
+
+    Annotations: 
+        rdfs:label "polycyclic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/unnamed.owl#RID16606"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4e9a802a8425909af393066369747de0>
+
+    Annotations: 
+        rdfs:label "hydrophobic moiety"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_12ea829746cbcf15dd3f919988256e2a>
+
+    Annotations: 
+        rdfs:label "CDK inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_F0001217"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_P0000242"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0004861"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0045736"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0004861"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0045736"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4bac3271902b6b0c7fb7dba69a05d2a8>
+
+    Annotations: 
+        rdfs:label "antagonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_48706"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48706"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#antagonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Antagonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugInhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneInhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_7b6aada1a00c38e6b806eedf99871b0b>
+
+    Annotations: 
+        rdfs:label "chemical intermediate"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_503d9073f3f38c4e3f99027f96288182>
+
+    Annotations: 
+        rdfs:label "protein variants"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_8c7a0733e598e34f71d600c484f16e15>
+
+    Annotations: 
+        rdfs:label "MItochondrial complex 3 inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6e7906b7fb3f8e1c6366c0910050e595>
+
+    Annotations: 
+        rdfs:label "testes"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Testes"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Testis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/ENDO%2FTEST"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP18510-5"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D013737"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/TAO#TAO_0000598"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0000473"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/XAO#XAO_0000157"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/ZFA#ZFA_0000598"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bioontology.org/pma.owl#PMA_710"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/2/MiRNA-Ontology.owl#Testes"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b2ceb887fcb574785cd79c05db8604c5>
+
+    Annotations: 
+        rdfs:label "condensation reaction"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4db4e61bea8ac5bb1612176be942fd29>
+
+    Annotations: 
+        rdfs:label "chemical analog"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_396c983d4290901e4060ffe25e7c0eb3>
+
+    Annotations: 
+        rdfs:label "DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://mged.sourceforge.net/ontologies/MGEDOntology.owl#DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Deoxyribonucleic_Acid"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://onto.eva.mpg.de/ontologies/gfo-bio.owl#DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao454034570"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/AIR/DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2101-9742"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000028"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000098"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0005574"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP18329-0"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP32416-7"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/MTHU003299"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D004247"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7764191509814"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/24851008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_1002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_16991"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EO#EO_0007532"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FBcv#FBcv_0000579"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0005574"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000251"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0000352"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.biopax.org/release/biopax-level3.owl#Dna"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#DNA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugGene"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#PhenotypeGene"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_3a46f2e00965c9188ae5b97959183b6b>
+
+    Annotations: 
+        rdfs:label "acetyl-CoA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acetyl_Coenzyme_A"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000105"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761522187317"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_15351"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_817855009d7e5cfa533b11e6b47eae29>
+
+    Annotations: 
+        rdfs:label "accumulates"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_8aba192e75dd5c22add9768d9176d3d2>
+
+    Annotations: 
+        rdfs:label "protein synthesis inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Protein_Synthesis_Inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48001"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9e3c89109640084e09e21ce4eb170254>
+
+    Annotations: 
+        rdfs:label "neurotoxin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neurotoxin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#CHEBI_50911"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2061-0492"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/363642007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50911"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/IDO_0000632"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_bf29da3b5c08a9635a493f1939e30c33>
+
+    Annotations: 
+        rdfs:label "cation transport"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006812"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006812"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_e8b7c9f87d9bcfd87cc66240f1d6606a>
+
+    Annotations: 
+        rdfs:label "ATP synthesis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ATP_Synthesis_Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006754"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006754"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_27f0900071866fe327dc1784d59ed729>
+
+    Annotations: 
+        rdfs:label "dimerizes"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4718d37de05affee8a6a8ed67d7cd90d>
+
+    Annotations: 
+        rdfs:label "epoxide"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2166-0308"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_32955"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b0433806a115f59293bc1e9621418de2>
+
+    Annotations: 
+        rdfs:label "transcriptional activation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transcriptional_Activation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D015533"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4521334714501be6f968ccffc66c037e>
+
+    Annotations: 
+        rdfs:label "agonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Agonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48705"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#agonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Agonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugInducer"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneInducer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_433d266ffebf8f3a11f07435f2eb5b3d>
+
+    Annotations: 
+        rdfs:label "Aryl hydrocarbon Receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Aryl_Hydrocarbon_Receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4007-0007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HUGO/348"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D018336"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7763596428037"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/600253"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003858"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_7a31b90305e06f771b6e86baa9e620b7>
+
+    Annotations: 
+        rdfs:label "hydrophillic"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ddab714078f385f3b1dde92383b0a7f3>
+
+    Annotations: 
+        rdfs:label "biotransformed"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_535ab5ec1aa9c37b7e2681c2df5d9867>
+
+    Annotations: 
+        rdfs:label "increased affinity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002071"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ad34bf990cfa412f3af880733ee4112e>
+
+    Annotations: 
+        rdfs:label "enzymatic cleavage"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/OBI_0000231"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_fe9546701d4f008db999ec518f3141d4>
+
+    Annotations: 
+        rdfs:label "phosphorylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Phosphorylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Protein_Phosphorylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_Y0000024"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2304-1646"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0016310"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D010766"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/363262008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000145"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#phosphorylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0016310"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MAO#MAO_0000146"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002262"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000216"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Phosphorylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#Phosphorylation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_772da8ded1e940bff0c3006d275dc94a>
+
+    Annotations: 
+        rdfs:label "cross talk"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_30b90a5d12d6e0cd3a47c9e1a6a21efe>
+
+    Annotations: 
+        rdfs:label "cell death"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cell_Death"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0599-7346"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0008219"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10057248"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D016923"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/APO#APO_0000312"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0008219"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MPATH#MPATH_2"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#CellDeath"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_cfdf1e7b990f608615701bde887b639a>
+
+    Annotations: 
+        rdfs:label "biotransformation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1850-1558"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001711"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/Q000378"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugTransformation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_982908b52c6f4e3cbd78cd68026bfbf6>
+
+    Annotations: 
+        rdfs:label "mitochondrial inner membrane"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inner_Mitochondrial_Membrane"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_C0000329"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0005743"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0005743"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_22c9a1c73b1e607b9704e5b9531d4c2f>
+
+    Annotations: 
+        rdfs:label "cation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_36916"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1627-0751"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa4gJ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/31046007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_36916"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010457"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_bb55272e02a2ade39d4ecb56d013522d>
+
+    Annotations: 
+        rdfs:label "substantia nigra"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/birnlex#birnlex_789"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID6540"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Substantia_Nigra"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Substantia_Nigra"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#birnlex_789"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/BTO/BTO_0000143"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0479-5797"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D013378"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa12S"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RID/RID6540"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/279286002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/70007007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/BTO#BTO_0000143"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_0100247"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_3000235"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67947"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MA#MA_0000210"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MAT#MAT_0000504"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0002038"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Substantia_nigra"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000922"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_acaa788eaeee65fa49fa3ccccc3945bb>
+
+    Annotations: 
+        rdfs:label "metabolic activation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001711"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_0a5b887d31375cdf8eb1b0790c47d60f>
+
+    Annotations: 
+        rdfs:label "electron withdrawing moiety"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_cae283fdc04297773e831e837af252c9>
+
+    Annotations: 
+        rdfs:label "carcinogenesis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Carcinogenesis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2031-1660"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_40ef544c78438cf97666c505f100b6bc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "An adenine nucleotide comprised of three phosphate groups esterified to the sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength"@en,
+        rdfs:label "Adenosine Triphosphate"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ATP8A2_Protein"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ATP8A2_wt_Allele"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adenosine_Triphosphate"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_15422"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2502-9918"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000255"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7764290222360"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/76711004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_15422"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_30616"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_57299"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d9d17d7782fa7b5e5a8a0c09bd096e39>
+
+    Annotations: 
+        rdfs:label "group 1 human carcinogen"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_f5a977906f706a07e468e271e6cad227>
+
+    Annotations: 
+        rdfs:label "Hsp90 inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ecad3d5f3485b32d23bdca37146ae88a>
+
+    Annotations: 
+        rdfs:label "excretion"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/BTO/BTO_0000491"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0418-3641"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/63911002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/BTO#BTO_0000491"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_9674"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0007588"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/IDOMAL#IDOMAL_0002039"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0000174"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Excretion"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a1b199123b78fd81cc5feccc76b058a6>
+
+    Annotations: 
+        rdfs:label "immunophillin"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_402a8e72bcab55df59119e8c5cff013d>
+
+    Annotations: 
+        rdfs:label "citric acid cycle"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2983-8380"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006099"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D002952"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006099"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_c4e184fdac6c9f84fbe5ff71a0f476aa>
+
+    Annotations: 
+        rdfs:label "acidic dissociable group"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_c7959107a95b5cbdbe541cefd8dd8d6c>
+
+    Annotations: 
+        rdfs:label "JNK kinase inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_61db33b7b661709b6e2efdbac17f9e36>
+
+    Annotations: 
+        rdfs:label "fluroacetate"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d566c7267a302b49c5a1543025ff8310>
+
+    Annotations: 
+        rdfs:label "kinase"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Kinase"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#IMR_0000512"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2305-4757"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D010770"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761323120675"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa9tY"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/304257007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#kinase"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Kinase"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.pamgene.com/ontology/K2P.owl#Kinase"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6442d61bef9e2f0bc18c7a282c1b780d>
+
+    Annotations: 
+        rdfs:label "mechanism of inhibition"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_32a228ed0a1940b82b13321edb86288f>
+
+    Annotations: 
+        rdfs:label "mutation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mutation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mutation_Abnormality"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1259-7796"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000074"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP32514-9"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009154"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU006137"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MAO#MAO_0000126"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0000109"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Mutation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/Ontology1195292020.owl#Mutation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/Ontology1207125891.owl#Mutation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_c3edd9d5554857c6d0072cb56ea442ff>
+
+    Annotations: 
+        rdfs:label "binding site"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ligand_Binding_Domain"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4009-0041"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0001854"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001665"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/69666007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#binding_site"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0001091"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010040"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugTarget"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/resource/SIO_010334>
+
+    
+Class: <http://semanticscience.org/resource/SIO_000624>
+
+    
+Class: <http://bio2rdf.org/term#term_93087b5b4356d0852f986baef7258b9b>
+
+    Annotations: 
+        rdfs:label "Trancription inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_3960c69d2ac9ef6ed048ae17d9360fbf>
+
+    Annotations: 
+        rdfs:label "FADH"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022570"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_3294ece26cc478678b77e9c3789113be>
+
+    Annotations: 
+        rdfs:label "SERCA inhibtor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a9c00f4669262e6841bfaae5daab053c>
+
+    Annotations: 
+        rdfs:label "substrate specificity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D013379"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_abab1fdff3932433972cdd8b147088d0>
+
+    Annotations: 
+        rdfs:label "extrasystoles"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/clinicalFinding#29717002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/EXTRASYSTOLES"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICD10CM/I49.49"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K80009"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10015856"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D005117"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C2532"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/115000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/G576."^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/195091008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/195092001"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/29717002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/WHO/0438"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4ae3f08fd7f4806e1c49007fe66ada77>
+
+    Annotations: 
+        rdfs:label "s. ceveresiae"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_736e5e1b4a4393e12a524b95d1e4b475>
+
+    Annotations: 
+        rdfs:label "cellular energy depletion"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_146509c288c7b985235651a5abdc19fa>
+
+    Annotations: 
+        rdfs:label "protons"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D011522"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7756853545632"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X79Of"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/89177007"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_81b43beeb551e41990fd610908c9481b>
+
+    Annotations: 
+        rdfs:label "transport inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4007-0128"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_de6b132182bad1be31d67231d3217681>
+
+    Annotations: 
+        rdfs:label "chemical sub-structure"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2aa177b63f882f7bc0c6e1593e0f3f4a>
+
+    Annotations: 
+        rdfs:label "immunotoxicity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immunotoxicity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1560-0549"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_1339"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_87603d23d01da97c8c9839c1a137f910>
+
+    Annotations: 
+        rdfs:label "coupled"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Couple"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#coupled"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ecb126681dddee39a7ab0d93924e7b25>
+
+    Annotations: 
+        rdfs:label "pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Biochemical_Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://onto.eva.mpg.de/ontologies/gfo-bio.owl#Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000003"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.biopax.org/release/biopax-level3.owl#Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.mygrid.org.uk/ontology/JERMOntology#pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0044"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_198b6991b76c41b670e1919a81f82231>
+
+    Annotations: 
+        rdfs:label "ventricular fibrillation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/clinicalFinding#71908006"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ventricular_Fibrillation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ventricular_Fibrillation_Adverse_Event"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1393-3367"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/FIBRILLAT+VENT"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HP/HP_0001663"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICD10CM/I49.01"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K80011"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10047290"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D014693"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C6414"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU005011"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/G5740"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/155371004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/71908006"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/HP#HP_0001663"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0006110"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6de75ac6932f61a518fbe520b77dddce>
+
+    Annotations: 
+        rdfs:label "inorganic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inorganic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_669"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2c6d7550c308dd9c6eca49e438069712>
+
+    Annotations: 
+        rdfs:label "chemical derivative"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_61f0b5130c99cfe24f3291681fcdea9f>
+
+    Annotations: 
+        rdfs:label "Fjord region"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_73f8029bfc5d3d75e1877819f62319d8>
+
+    Annotations: 
+        rdfs:label "cyctochrome c oxidase inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_0e745d5f843cd3a18559de41bc28344b>
+
+    Annotations: 
+        rdfs:label "partial electrical charge"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_11127a52b058bf8385d5b86ffac8e5da>
+
+    Annotations: 
+        rdfs:label "beta-lactame"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4385738b1450a64b743b258c7c551701>
+
+    Annotations: 
+        rdfs:label "kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID205"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/BTO/BTO_0000671"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1679-5191"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICD10/D30.0"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICD10/D41.0"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP7380-1"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/MTHU002935"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D007668"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU004304"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/7N500"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RID/RID205"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/181414000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/64033007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/AAO#AAO_0000250"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/BTO#BTO_0000671"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_0100096"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_3000495"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EVM#EVM_2000283"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_7203"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MA#MA_0000368"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MAT#MAT_0000119"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MFO#MFO_0003300"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0005367"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/TAO#TAO_0000151"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/TAO#TAO_0000529"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0002113"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/XAO#XAO_0003267"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/ZFA#ZFA_0000529"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bioontology.org/pma.owl#PMA_1621"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000929"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.icn.ch/icnp#Kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/10/BPO.owl#kidney"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/2/MiRNA-Ontology.owl#Kidney"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_3411ce293418d17bd0878cb8eebd14f5>
+
+    Annotations: 
+        rdfs:label "IKK-2 inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_7e7675d4f525f55bbb210a6cc01ee7d7>
+
+    Annotations: 
+        rdfs:label "cholesteryl ester transfer protein inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_49205"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d8fdb66f6e0ef6506faaf32e62d8fa67>
+
+    Annotations: 
+        rdfs:label "amino acid residue"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_33708"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010074"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_155f0939e210507ba2dbb50541a05f11>
+
+    Annotations: 
+        rdfs:label "Na+ gradient"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/resource/SIO_010030>
+
+    
+Class: <http://bio2rdf.org/term#term_8215096264a79475fa2576a43ceb74c7>
+
+    Annotations: 
+        rdfs:label "NADH"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0062566"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2510-6440"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009243"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDDF/008247"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RXNORM/7222"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_16908"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_5cd73a88ed24aff2f0e2cfc0867740e9>
+
+    Annotations: 
+        rdfs:label "protein derivatives"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_86fa83b6f29a1424c772c77d64588eba>
+
+    Annotations: 
+        rdfs:label "genotoxicity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4000-0169"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_507e935a0f2208b571dfc60bf56d38a6>
+
+    Annotations: 
+        rdfs:label "anion"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_22563"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1626-7005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa4gK"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/47707009"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_22563"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010458"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_036238176b22096285df69130b474c8d>
+
+    Annotations: 
+        rdfs:label "cytosol"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cytosol"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#sao101633890"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_C0000397"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0595-2394"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0005829"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D003600"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0005829"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_0d7fcaef8fbd3d89e1712142c1e95793>
+
+    Annotations: 
+        rdfs:label "metabolise"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#metabolizes"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_25216f63de4fac819c2df10fd9232f89>
+
+    Annotations: 
+        rdfs:label "pleotropic response"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_c88058092f8b15ed7c9f9eae595eb0c1>
+
+    Annotations: 
+        rdfs:label "suicide inhibition"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_38774fdf1a6c37d5983213810c3a1d65>
+
+    Annotations: 
+        rdfs:label "anionic form"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_02cb096aee40c99c4ee65c6ea730653b>
+
+    Annotations: 
+        rdfs:label "toxicokinetics"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D010599"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/Q000493"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4d697d67a33c645c38f8adec9a0b5e55>
+
+    Annotations: 
+        rdfs:label "Bay region"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GAZ#GAZ_00015045"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d2f34215f48319b1d769614d3f8a0f85>
+
+    Annotations: 
+        rdfs:label "glutamyl moeity"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_fbec9ae8be16065d639b818a6fbdadad>
+
+    Annotations: 
+        rdfs:label "Retinoid receptor inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9f4b40836e1e16dcd40ad343028fc0e7>
+
+    Annotations: 
+        rdfs:label "specific amino acid transporter"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/mechtox_language#mechtox_language000000>
+
+    Annotations: 
+        rdfs:label "testclass"@en,
+        rdfs:seeAlso "http://bio2rdf.org/mechblah#asdfas"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_412ba84716f4b13e52ae259fd7871e04>
+
+    Annotations: 
+        rdfs:label "neoplasm"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID3957"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/morphAbnormalStruct#108369006"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Neoplasm"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/NEOPL"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10028980"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009369"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C4434"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU015469"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/XE1vN"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RID/RID3957"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/108369006"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/WHO/1700"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_1573"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_0400051"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MPATH#MPATH_218"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000616"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Neoplasm"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_5cde3bd91b24c6fcbe6ba3d6eb3e45e4>
+
+    Annotations: 
+        rdfs:label "electrophoresis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Electrophoresis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2323-1401"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP6247-3"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10014458"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D004586"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X77Zq"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/814007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_1418"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/OBI_0600053"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FIX#FIX_0000097"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.mygrid.org.uk/ontology/JERMOntology#electrophoresis"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_f737e510ae4b46fae84487cdaff2ec2b>
+
+    Annotations: 
+        rdfs:label "mitochondrial uncoupler"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_fe05daefec20ebe1b4e907765ccf0abf>
+
+    Annotations: 
+        rdfs:label "dimer"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1946-1004"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6d882bf92560fb34a45617bd5a0d0202>
+
+    Annotations: 
+        rdfs:label "hepatocellular injury"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Damage"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10019837"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000001>
+
+    Annotations: 
+        rdfs:comment "A class of monosaccharides with five carbon atoms"@en,
+        rdfs:label "pentose"@,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pentose"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010030>
+    
+    
+Class: <http://bio2rdf.org/term#term_9eaf9f34248527ee422046b1feff282a>
+
+    Annotations: 
+        rdfs:label "calcineurin inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0059407"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/416587008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/416798007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000004930"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_8c5a34fd0d95646cb7b761ced2c19637>
+
+    Annotations: 
+        rdfs:label "proton concentration gradient"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a1741cbb12148ca8a0709891b5b86118>
+
+    Annotations: 
+        rdfs:label "protein domain"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Protein_Domain"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000065"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D017434"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/biotop/biotop.owl#ProteinDomain"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#protein_domain"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#ProteinDomain"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d3fe21fb0bb71376a914fc2e1fa857c8>
+
+    Annotations: 
+        rdfs:label "myosin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2446-7700"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009218"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7759320064421"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X80Pw"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/23038005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67840"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Myosin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Myosin"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_52805dcbb5d3708045fa1a68a7295ddf>
+
+    Annotations: 
+        rdfs:label "methyl group"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0095-0544"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_32875"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9c696fda0fcceb189514ac6bc0a95f8e>
+
+    Annotations: 
+        rdfs:label "nuclear translocation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nuclear_Translocation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6868f8ecbe9e6f6d5bfdd4d661feb346>
+
+    Annotations: 
+        rdfs:label "active site"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Active_Site"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4000-0107"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D020134"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010041"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_27eeaf994d9eff1a9c65e8f6cb51db19>
+
+    Annotations: 
+        rdfs:label "hydrocarbon"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hydrocarbon"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1472-3653"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa7Mu"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/80382003"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_24632"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_76d8f3a9864ef3c10d77234aa125dd90>
+
+    Annotations: 
+        rdfs:label "Na+ transport channel"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>
+
+    Annotations: 
+        rdfs:label "aconitase"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0002730"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0004716"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0815-3169"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000154"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761236025528"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/54239002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003631"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003632"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022043"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a483bb6733c1a151d0cf49017ed567eb>
+
+    Annotations: 
+        rdfs:label "mechanistic inhibition"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b0b4bbe8a6473a3e18b79d07fafd2f86>
+
+    Annotations: 
+        rdfs:label "heterodimer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_893a4300e1a69b08acc80b1f8dd02d5f>
+
+    Annotations: 
+        rdfs:label "secondary ion transporters"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9eef6c41a928f17e1d16136385de26a6>
+
+    Annotations: 
+        rdfs:label "hydrophobic group"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b2ab0aa875fcf649f490a7462b25b893>
+
+    Annotations: 
+        rdfs:label "uptake"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Uptake"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0418-2413"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_e29bd40e8351256de00bf0ca4211ee70>
+
+    Annotations: 
+        rdfs:label "covanlent bound"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_88bd20317717141e3eb7558b5eaeda99>
+
+    Annotations: 
+        rdfs:label "xenobiotic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0962-5347"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2948-8512"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_35703"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_03649956779e36a9429b47c85945b409>
+
+    Annotations: 
+        rdfs:label "IkBa phosphorylation inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b68dca981c865b3540b786da654ac9d0>
+
+    Annotations: 
+        rdfs:label "arrhythmia"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID11309"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/clinicalFinding#44808001"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Arrhythmia"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1393-3277"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/ARRHYTHMIA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HP/HP_0001665"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K80012"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K84002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10003119"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MEDLINEPLUS/T147"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001145"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C1116"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU012522"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X77BB"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/251151005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/44808001"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/53488008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/WHO/0433"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/HP#HP_0001665"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0001636"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SYMP#SYMP_0000287"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.icn.ch/icnp#Arrhythmia"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Arrhythmia"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_bf5cc030d8f4be924067dffe8f9dd4f2>
+
+    Annotations: 
+        rdfs:label "protonophore"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d1dc4e345124fc43ef5afc951e39a3f3>
+
+    Annotations: 
+        rdfs:label "CYP inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6892cf3e76966a4d15b8b50bbe335858>
+
+    Annotations: 
+        rdfs:label "organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/birnlex#birnlex_4"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID13203"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://lsdis.cs.uga.edu/projects/glycomics/propreo#organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-GrossAnatomy.owl#birnlex_4"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2935-4508"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009938"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/Q000458"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RID/RID13203"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/biotop/biotop.owl#Organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67498"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MFO#MFO_0002880"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/TAO#TAO_0000496"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0000062"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0003103"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/WBbt#WBbt_0003760"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/ZFA#ZFA_0000496"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010003"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/basic-bio/top-bio.owl#Organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.cvrgrid.org/files/ECGOntologyv0.1.7.owl#ECG_000000818"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.cvrgrid.org/ontologies/Electrophysiology#Organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Organ"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.proteinontology.info/po.owl#Organ"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_fed0f2a4631df601758f5ab760fbbdca>
+
+    Annotations: 
+        rdfs:label "nuclear receptor pregnane X receptor inducer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6e8197360d156d747ab6170200f8985c>
+
+    Annotations: 
+        rdfs:label "irreversible inhibition"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_542f6da37aa2fb60df818482ee5a528d>
+
+    Annotations: 
+        rdfs:label "ionophores"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D007476"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_24869"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_8cbca1e14afbc3c944101e5bd77faf51>
+
+    Annotations: 
+        rdfs:label "disassociation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_765dc7900bb3dc42bb8007818af3fe17>
+
+    Annotations: 
+        rdfs:label "oxaloacetate"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0880-9694"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D020352"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7757904968648"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4a1651b2fc5209af6062f1ecf676d86a>
+
+    Annotations: 
+        rdfs:label "protonophoric mechansim"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6abb58b1b74ca6da1fcc0dc51a06b5f2>
+
+    Annotations: 
+        rdfs:label "metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Intermediary_Metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metabolic_Pathways"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metabolic_Process"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metabolism_Organismal"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1850-0312"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0008152"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D008660"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/Q000378"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C224"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/47722004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0008152"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010308"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bioontology.org/pma.owl#PMA_938"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.icn.ch/icnp#Metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.mygrid.org.uk/ontology/JERMOntology#metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/unnamed.owl#Metabolism"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneProductMetabolism"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_68964787ef3f5bd01d314a050bc3c49e>
+
+    Annotations: 
+        rdfs:label "hemilactal bond"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_696449fbf224550d861e691bc87b13f8>
+
+    Annotations: 
+        rdfs:label "specific mechanism"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ab309313142df64b0c8a000f1c11a12e>
+
+    Annotations: 
+        rdfs:label "liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID58"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Liver_Flavor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Liver_Food"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/BTO/BTO_0000759"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1754-0095"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/DIG%2FLIV"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EHDAA2/EHDAA2_0000997"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICD10/D13.4"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP29289-3"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP7400-7"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/MTHU002039"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D008099"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C16554"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU000220"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/7N330"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RID/RID58"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/10200004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/181268008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/VANDF/4017451"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/OBI_0302743"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/BTO#BTO_0000759"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_10426"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_2198"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_3055"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_3994"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_4935"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_5894"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_6983"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_8070"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_9312"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDAA#EHDAA_2197"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_0100089"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_3000030"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EVM#EVM_2000020"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_7197"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MA#MA_0000358"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MAT#MAT_0000097"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/MFO#MFO_0003060"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/TAO#TAO_0000123"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0002107"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/XAO#XAO_0000133"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/XAO#XAO_0003266"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/ZFA#ZFA_0000123"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/basic-bio/basic-vertebrate-gross-anatomy.owl#Liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000887"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/10/BPO.owl#liver"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/2/MiRNA-Ontology.owl#Liver"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2100dd9e489048d28715a37b759f59f1>
+
+    Annotations: 
+        rdfs:label "cell type"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cell"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0603-8552"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP31515-7"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/MTHU015192"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_0200000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/WBbt#WBbt_0004017"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000324"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_7f81423d3ebcc8bdbcdde4842f8ea52c>
+
+    Annotations: 
+        rdfs:label "NF(alpha)B pathway inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4fff29bf2144a5ade1f177b3cb0fa94f>
+
+    Annotations: 
+        rdfs:label "lumen"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID5969"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ecoinformatics.org/oboe/oboe.1.0/oboe-units.owl#Lumen"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://mged.sourceforge.net/ontologies/MGEDOntology.owl#lumen"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Lumen"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RID/RID5969"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/113342003"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/342806003"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/398252006"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_10467"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_10478"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_5028"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_8123"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_8143"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_9366"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDA#EHDA_9378"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDAA#EHDAA_5027"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDAA#EHDAA_8122"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EHDAA#EHDAA_8142"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UO#UO_0000118"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Lumen"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_11ccd933d0bfeae357a891d37e6c0160>
+
+    Annotations: 
+        rdfs:label "dopanimergic neuron"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a99dca5593185c498b63a5eed917bd4f>
+
+    Annotations: 
+        rdfs:label "cancer"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/birnlex#birnlex_406"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/clinicalFinding#363346000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/morphAbnormalStruct#86049000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Malignant_Neoplasm"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Organism.owl#birnlex_406"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/Dysfunction/NIF-Dysfunction.owl#birnlex_12525"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2000-0173"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/CARCINOMA"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/A79001"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP100805-3"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP7106-0"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP74584-1"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/MTHU010328"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10007050"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MEDLINEPLUS/T25"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009369"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C4434"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/PDQ/CDR0000041060"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X78ef"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/363346000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/38807002"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/86049000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/OBI_1110053"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/EV#EV_0400070"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6754"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000311"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#Cancer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_56cd181dd6bf99dd38e6cec914f9a56a>
+
+    Annotations: 
+        rdfs:label "endocrine receptor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_095c2d85ef530762a2f03c15f2755311>
+
+    Annotations: 
+        rdfs:label "cellular transporters"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_001a249da602f82e2d14784bf74be8fa>
+
+    Annotations: 
+        rdfs:label "binding"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Binding"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Molecular_Interaction"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_F0001633"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0005488"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP20745-3"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/Q000493"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X79uB"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/257768005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000036"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0005488"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0001091"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0100018"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Binding"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Binding"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.mygrid.org.uk/ontology/JERMOntology#binding"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9dcdce6d0b11a921f8baa88c16d81f6d>
+
+    Annotations: 
+        rdfs:label "lipid bilayer"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D008051"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761737642633"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/40756008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_338"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_50e67be415974235eb06294d33fb817e>
+
+    Annotations: 
+        rdfs:label "gene signature"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gene_Signature"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_183a59850b0680d6718d1198e5295259>
+
+    Annotations: 
+        rdfs:label "cellular transport"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cellular_Transport_Process"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d7bbd5ca151d0296f70135f84d9e1c60>
+
+    Annotations: 
+        rdfs:label "actin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Actin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao925531236"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2446-6600"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP14639-6"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000199"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7759329144905"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X80OU"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/46583003"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67843"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Actin"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Actin"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_1ead8edf385c835d2069d58816c085be>
+
+    Annotations: 
+        rdfs:label "direct enzyme inhibition"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ae3c24fefa3cc285451a4e58a1047e13>
+
+    Annotations: 
+        rdfs:label "carcinogen"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Carcinogen"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2031-2927"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/88376000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50903"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/unnamed.owl#RID18757"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_5b94831e0192892a732df18165459dd4>
+
+    Annotations: 
+        rdfs:label "DNA alkylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DNA_Alkylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006305"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006305"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_42741f48e00217784d2eaaff2148a1eb>
+
+    Annotations: 
+        rdfs:label "glial cells"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glial_Cell"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Mouse_Neuroglia"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009457"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/mechtox_language#MECHTOX_000001>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "A five carbon cyclic pentose."@en,
+        rdfs:label "sugar moeity"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_000624>
+    
+    
+Class: <http://bio2rdf.org/term#term_bc974a57133a594d25f0628de5918611>
+
+    Annotations: 
+        rdfs:label "dopamine transporter"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nlx_mol_20090512"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4005-0015"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HUGO/11049"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D050483"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7762498649409"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/126455"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/mechtox_language#MECHTOX_000002>
+
+    Annotations: 
+        rdfs:label "acetyl group"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_000624>
+    
+    
+Class: <http://bio2rdf.org/mechtox_language#MECHTOX_000003>
+
+    Annotations: 
+        rdfs:comment "A pentose which is an epimer at C-3 (in Fisher projection) of xylose. Structurally, it is a xylose with the OH and H groups interchanged at carbon-3."@,
+        rdfs:label "ribose"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ribose"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000001>
+    
+    
+Class: <http://bio2rdf.org/term#term_dc945e7f679b80f9e65b82203606b179>
+
+    Annotations: 
+        rdfs:label "inhibition"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inhibition"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D007266"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/61511001"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000124"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000169"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Inhibition"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/Ontology1195292020.owl#Inhibition"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugInhibition"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#isInhibitedBy"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ad98e8188323f0165d36920e7f8c5e53>
+
+    Annotations: 
+        rdfs:label "MEK kinase inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_4f8a6902a7d4adf6acdc5fcb1b0d4640>
+
+    Annotations: 
+        rdfs:label "beta-oxidation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/mechtox_language#MECHTOX_000000>
+
+    Annotations: 
+        <http://semanticscience.org/resource/synonym> "(HO)2P(O)-O-
+
+phosphonooxy
+
+-O-P(O)(OH)2
+
+H2O4P"@en,
+        rdfs:label "phosphate group"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_32958"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_000624>
+    
+    
+Class: <http://bio2rdf.org/term#term_05ea075e400fecaa91fe1bfd6b86ba5e>
+
+    Annotations: 
+        rdfs:label "dioxin response element"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ebdde4ee0f2d7df334a853c458d024a9>
+
+    Annotations: 
+        rdfs:label "mechanism of aconitase inhibition"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_090dc344924cc30916e96dbaa87e3dd9>
+
+    Annotations: 
+        rdfs:label "polycyclic aromatic bay region"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_53bb9b28a589aee867981e257f68026e>
+
+    Annotations: 
+        rdfs:label "selective accumulation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_e47dc130d9d13a6a541d1237c832d3fe>
+
+    Annotations: 
+        rdfs:label "protein chaperone"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2759ed3208f4e40bb12bef7514ef4fcb>
+
+    Annotations: 
+        rdfs:label "thiol group"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_29917"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_f462d40ce0fbedfb836819f076a226f5>
+
+    Annotations: 
+        rdfs:label "oxidative uncoupling"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_c635660cc3c783a356b0e767c24000cb>
+
+    Annotations: 
+        rdfs:label "glycolysis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glycolysis"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1439-5214"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006096"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D006019"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006096"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9633a1816ff52c97d2ba4de31bc3bc3a>
+
+    Annotations: 
+        rdfs:label "efflux"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_eda34df9111bd804dfb4f6a04cced888>
+
+    Annotations: 
+        rdfs:label "translocation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Translocation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0418-2920"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0602-7314"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2446-2800"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000176"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0000199"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a1f467dd6ecd1f713fe0f78c43c3cb54>
+
+    Annotations: 
+        rdfs:label "disasteromers"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b745d21b8f0540111080249f291b63b9>
+
+    Annotations: 
+        rdfs:label "glutathione"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Glutathione"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#nlx_mol_20090201"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CPT/82978"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2237-5409"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP15617-1"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/MTHU006265"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10056324"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D005978"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDDF/003447"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C15122"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C23354"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/PDQ/CDR0000655232"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RXNORM/4890"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/423272009"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/55477000"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/VANDF/4020562"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_16856"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_57925"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_e7ae1571b398a477ea6c78be47d4defb>
+
+    Annotations: 
+        rdfs:label "intracellular cAMP increase"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_1474047fb00b2d8d95646f7436837ed0>
+
+    Annotations: 
+        rdfs:label "affinity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Affinity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#affinity"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002070"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneProductAffinity"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_e98df0a7dcdea74a929d9af591ddf2a7>
+
+    Annotations: 
+        rdfs:label "aryl hydrocarbon receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Aryl_Hydrocarbon_Receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4007-0007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HUGO/348"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D018336"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7763596428037"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/600253"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003858"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_217436d33109ec53ed4687b39b622fde>
+
+    Annotations: 
+        rdfs:label "mitochrondial mediated toxicity"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2dc233735dc9206472a0773134d6813e>
+
+    Annotations: 
+        rdfs:label "non-genotoxic carcinogen"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_ead264a873403f150bc7a3c2a0178be0>
+
+    Annotations: 
+        rdfs:label "proximal tubular epithelia"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d09ad79a5872f02ce64c106bedc124f5>
+
+    Annotations: 
+        rdfs:label "mTOR inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#mTOR_Inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/PDQ/CDR0000680660"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2e0368635e89f33fa73f007e7f8bbbfa>
+
+    Annotations: 
+        rdfs:label "Estrogen Receptor Antagonist"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50792"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_95307dd6eb8109265b2854462bc45c93>
+
+    Annotations: 
+        rdfs:label "HMG-CoA reductase inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#HMG-CoA_Reductase_Inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C420"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C634982"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/372912004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/96302009"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_35664"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_cfa01cfd9cedf7512d4586c215b77192>
+
+    Annotations: 
+        rdfs:label "nuclear receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nuclear_Receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/5000-0050"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_05180ca1b5d8c11df0328a369b918dba>
+
+    Annotations: 
+        rdfs:label "genotoxic mechanism"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_07244d4d7b92a59bedd22dd024b91c90>
+
+    Annotations: 
+        rdfs:label "oxidative phosphorylation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Oxidative_Phosphorylation_Pathway"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2304-1959"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006119"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D010085"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/5410007"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/APO#APO_0000145"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006119"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d432fd34b1943d87952e8437d1ffaa0b>
+
+    Annotations: 
+        rdfs:label "hydroxide"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4003-0024"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/C031356"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_16234"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b32f8ff8a8a9a0cf05c6d896ddd54a98>
+
+    Annotations: 
+        rdfs:label "molecular mimicry"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D018716"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_832ce5c7e20388d314c33ef89a8cda4a>
+
+    Annotations: 
+        rdfs:label "ATP synthase"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0016467"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0016468"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0016467"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0016468"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_561d756829182e1cd3c49d840d0861a5>
+
+    Annotations: 
+        rdfs:label "neoplastic initiation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2906787b33723f3428d81cd480e9b174>
+
+    Annotations: 
+        rdfs:label "Km"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Comoros"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Kilometer"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Km"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000910"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HCPCS/KM"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDDF/KM"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/147200"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X8005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/258670009"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000027"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9cfa95aeed9159d1913d994dfe17815d>
+
+    Annotations: 
+        rdfs:label "DNA adduct"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DNA_Adduct"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b3e2f43bedad4331e6a5139ca8ca6791>
+
+    Annotations: 
+        rdfs:label "point mutation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Point_Mutation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1259-9080"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D017354"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_1000008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.owl-ontologies.com/Ontology1207125891.owl#Single_Site_Mutation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_a79917ef1e18c295a5329bc08398ebe3>
+
+    Annotations: 
+        rdfs:label "Pi-3 kinase inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50914"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d5b9fa600bc1c7a205ef3647cdf50229>
+
+    Annotations: 
+        rdfs:label "toxicodynamic"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_413f3a95ae27698164bdadf55b0bef8c>
+
+    Annotations: 
+        rdfs:label "oxidation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Oxidation"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2165-6564"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/26694004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000142"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000201"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#Oxidation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_98e720b3d49f0991c3c3e01ff220f33c>
+
+    Annotations: 
+        rdfs:label "aromatic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDDF/006976"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_276"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002191"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/amino-acid/2005/10/11/amino-acid.owl#Aromatic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_16ffbd0e15d8921393411821950e41a8>
+
+    Annotations: 
+        rdfs:label "DNA mismatch"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_708f87e402da3bc98e30cb622c72c30c>
+
+    Annotations: 
+        rdfs:label "microtubule destablizer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_2d7200950d51c0bfc8a6e28b306ea3df>
+
+    Annotations: 
+        rdfs:label "Parkinsons"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/Dysfunction/NIF-Dysfunction.owl#birnlex_2098"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_298337be05c633221e2ffcf9c8e460b5>
+
+    Annotations: 
+        rdfs:label "valence"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_7026d2a42142510a01309ef74dee8213>
+
+    Annotations: 
+        rdfs:label "chemical conformation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_3efe9ffae75f25da41f635d7a29e11ba>
+
+    Annotations: 
+        rdfs:label "inhibitor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP21396-4"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_35222"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000020"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010435"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_60f99de9da8fa87b30f9b250cd041126>
+
+    Annotations: 
+        rdfs:label "cyclooxgenase inhibitor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_5cf31ab49362c67a336f566a72fe61cc>
+
+    Annotations: 
+        rdfs:label "Retinoid receptor"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Retinoid_Receptor"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_deb2d7ad253629f693d5d652a306b591>
+
+    Annotations: 
+        rdfs:label "co-activators"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_bd63d314177a486aefb9068b99d782fa>
+
+    Annotations: 
+        rdfs:label "dissociates"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_19d4981a437c2651a3541f3f2cce2b33>
+
+    Annotations: 
+        rdfs:label "addition of hydroxide"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_d781f18930a85fed0682cc3d548b4874>
+
+    Annotations: 
+        rdfs:label "antibiotic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antibiotic"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0189-5476"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/PDQ/CDR0000043008"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X794g"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/255631004"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/41000005"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_22582"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/IDO_0000562"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/IDOMAL#IDOMAL_0000643"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.icn.ch/icnp#Antibiotic"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_96d7ee0ad1798dd0801e2c559d9fcacc>
+
+    Annotations: 
+        rdfs:label "ligand"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_F0001633"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1851-3200"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000019"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0005488"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_52214"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/ddi/owl#ligand"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0005488"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000280"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010432"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Ligand"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneLigand"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#Ligand"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_7e6e4eb3ff27864637756cb4d2a2a45d>
+
+    Annotations: 
+        rdfs:label "irreversible"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Irreversible"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#irreversible"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_43f958afb7bac14008652a2aafd675a4>
+
+    Annotations: 
+        rdfs:label "pyridine group"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_41d3a212e546dec228945d98bcee43da>
+
+    Annotations: 
+        rdfs:label "inducer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_5e0d1d8459a976d0358a2a0526fd58db>
+
+    Annotations: 
+        rdfs:label "fluride"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_745ee42d67103ed5e95aea80f69fc918>
+
+    Annotations: 
+        rdfs:label "DNA alkylating agent"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_235"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9f1f083115df80297880f8583ae72c74>
+
+    Annotations: 
+        rdfs:label "mutagensis"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_21a3ecaccdfe951734b36d72dc1daf13>
+
+    Annotations: 
+        rdfs:label "blood-brain barrier"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Blood-Brain_Barrier"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Subcellular.owl#nlx_subcell_100205"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001812"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/20245001"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://purl.org/obo/owl/UBERON#UBERON_0000120"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_9bd6c755fa9e1cd05a1ac9a9fda18809>
+
+    Annotations: 
+        rdfs:label "nephrotoxin"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_e1d0acb7857401c0f8a52d986a8dc085>
+
+    Annotations: 
+        rdfs:label "chemical complex"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_23a6150a3d3380a40eb7acea4cdf6e47>
+
+    Annotations: 
+        rdfs:label "molecular homology"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_fa5d49c1db1301e93125abf6bb419d67>
+
+    Annotations: 
+        rdfs:label "lipophillic"^^rdf:PlainLiteral
+    
+    

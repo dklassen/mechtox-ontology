@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog id="XML Catalog File (see http://www.oasis-open.org/committees/entity/spec-2001-08-06.html) - Created By Protege 4" prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://semanticscience.org/ontology/sio.owl" uri="http://semanticscience.googlecode.com/svn/trunk/ontology/sio.owl"/>
+    <group id="Folder Repository, directory=/Users/dana/Dropbox/mechtox-kb/mechtox-ontology/lib/ontology imports, Auto-Update=true" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1295611485606" name="http://www.w3.org/2002/07/owl" uri="me.owl"/>
+    </group>
+</catalog>
