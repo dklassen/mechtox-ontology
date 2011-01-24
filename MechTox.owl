@@ -36,6 +36,18 @@ AnnotationProperty: rdfs:comment
 Datatype: rdf:PlainLiteral
 
     
+Datatype: xsd:string
+
+    
+Datatype: rdfs:Literal
+
+    
+ObjectProperty: <http://semanticscience.org/resource/SIO_000053>
+
+    
+ObjectProperty: <http://semanticscience.org/resource/SIO_000028>
+
+    
 Class: <http://bio2rdf.org/term#term_e756f6aafafdef4debdb5e49bcbd3f11>
 
     Annotations: 
@@ -101,6 +113,7 @@ Class: <http://bio2rdf.org/term#term_4e9a802a8425909af393066369747de0>
 Class: <http://bio2rdf.org/term#term_12ea829746cbcf15dd3f919988256e2a>
 
     Annotations: 
+        rdfs:comment "A CDK inhibitor is a chemical that inhibits the function of Cyclin Dependent Kinases (CDK)."@en,
         rdfs:label "CDK inhibitor"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_F0001217"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_P0000242"^^rdf:PlainLiteral,
@@ -113,13 +126,14 @@ Class: <http://bio2rdf.org/term#term_12ea829746cbcf15dd3f919988256e2a>
 Class: <http://bio2rdf.org/term#term_4bac3271902b6b0c7fb7dba69a05d2a8>
 
     Annotations: 
-        rdfs:label "antagonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_48706"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48706"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/ddi/owl#antagonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Antagonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugInhibitor"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneInhibitor"^^rdf:PlainLiteral
+        rdfs:comment "A receptor antagonist is a type of receptor ligand that does not provoke a biological response itself upon binding a receptor the result is a blocked or dampened response."@en,
+        rdfs:label "receptor antagonist"@en,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_48706"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48706"@en,
+        rdfs:seeAlso "http://purl.org/ddi/owl#antagonist"@en,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Antagonist"@en,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugInhibitor"@en,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneInhibitor"@
     
     
 Class: <http://bio2rdf.org/term#term_7b6aada1a00c38e6b806eedf99871b0b>
@@ -137,7 +151,8 @@ Class: <http://bio2rdf.org/term#term_503d9073f3f38c4e3f99027f96288182>
 Class: <http://bio2rdf.org/term#term_8c7a0733e598e34f71d600c484f16e15>
 
     Annotations: 
-        rdfs:label "MItochondrial complex 3 inhibitor"^^rdf:PlainLiteral
+        rdfs:comment "A mitochondiral complex III inhibitor is a chemical entity which inhibits the function of mitochondiral complex III"@en,
+        rdfs:label "Mitochondrial complex 3 inhibitor"@en
     
     
 Class: <http://bio2rdf.org/term#term_6e7906b7fb3f8e1c6366c0910050e595>
@@ -157,16 +172,16 @@ Class: <http://bio2rdf.org/term#term_6e7906b7fb3f8e1c6366c0910050e595>
         rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/2/MiRNA-Ontology.owl#Testes"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_b2ceb887fcb574785cd79c05db8604c5>
-
-    Annotations: 
-        rdfs:label "condensation reaction"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_4db4e61bea8ac5bb1612176be942fd29>
 
     Annotations: 
         rdfs:label "chemical analog"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_b2ceb887fcb574785cd79c05db8604c5>
+
+    Annotations: 
+        rdfs:label "condensation reaction"^^rdf:PlainLiteral
     
     
 Class: <http://bio2rdf.org/term#term_396c983d4290901e4060ffe25e7c0eb3>
@@ -206,11 +221,12 @@ Class: <http://bio2rdf.org/term#term_396c983d4290901e4060ffe25e7c0eb3>
 Class: <http://bio2rdf.org/term#term_3a46f2e00965c9188ae5b97959183b6b>
 
     Annotations: 
-        rdfs:label "acetyl-CoA"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acetyl_Coenzyme_A"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000105"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761522187317"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_15351"^^rdf:PlainLiteral
+        rdfs:comment "The S-acetyl derivative of coenzyme A. Plays key role in metabolism, as in the transfer of both carbon atoms from the acetyl group to the the citric acid cycle for use in oxidative energy production. Important component in the biogenic synthesis of the neurotransmitter acetylcholine."@en,
+        rdfs:label "acetyl-CoA"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Acetyl_Coenzyme_A"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000105"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761522187317"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_15351"@en
     
     
 Class: <http://bio2rdf.org/term#term_817855009d7e5cfa533b11e6b47eae29>
@@ -256,6 +272,9 @@ Class: <http://bio2rdf.org/term#term_e8b7c9f87d9bcfd87cc66240f1d6606a>
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006754"^^rdf:PlainLiteral
     
     
+Class: <http://semanticscience.org/resource/SIO_010072>
+
+    
 Class: <http://bio2rdf.org/term#term_27f0900071866fe327dc1784d59ed729>
 
     Annotations: 
@@ -281,19 +300,21 @@ Class: <http://bio2rdf.org/term#term_b0433806a115f59293bc1e9621418de2>
 Class: <http://bio2rdf.org/term#term_4521334714501be6f968ccffc66c037e>
 
     Annotations: 
-        rdfs:label "agonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Agonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48705"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/ddi/owl#agonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Agonist"^^rdf:PlainLiteral,
+        rdfs:comment "An agonist is a chemical entity that binds to a protein receptor and elicits a response. The response elicited is the same for the endogenous agonist."@en,
+        rdfs:label "agonist"@en,
         rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugInducer"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneInducer"^^rdf:PlainLiteral
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneInducer"^^rdf:PlainLiteral,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Agonist"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_48705"@en,
+        rdfs:seeAlso "http://purl.org/ddi/owl#agonist"@en,
+        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Agonist"@en
     
     
 Class: <http://bio2rdf.org/term#term_433d266ffebf8f3a11f07435f2eb5b3d>
 
     Annotations: 
-        rdfs:label "Aryl hydrocarbon Receptor"^^rdf:PlainLiteral,
+        rdfs:comment "The aryl hydrocarbon receptor (AhR) is a ligand-activated helix/loop/helix transcription factor found in a variety of vertebrate species. Many foreign planar aromatic compounds, such as polycyclic aromatic compounds and halogenated aromatic compounds such as 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) are ligands of AhR. Unlike the steroid/thyroid hormone receptors, there is no known physiological ligand for the AhR."@en,
+        rdfs:label "aryl hydrocarbon receptor"^^rdfs:Literal,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Aryl_Hydrocarbon_Receptor"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4007-0007"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/HUGO/348"^^rdf:PlainLiteral,
@@ -308,6 +329,9 @@ Class: <http://bio2rdf.org/term#term_7a31b90305e06f771b6e86baa9e620b7>
     Annotations: 
         rdfs:label "hydrophillic"^^rdf:PlainLiteral
     
+    
+Class: owl:Thing
+
     
 Class: <http://bio2rdf.org/term#term_ddab714078f385f3b1dde92383b0a7f3>
 
@@ -454,8 +478,8 @@ Class: <http://bio2rdf.org/term#term_cae283fdc04297773e831e837af252c9>
 Class: <http://bio2rdf.org/term#term_40ef544c78438cf97666c505f100b6bc>
 
     Annotations: 
-        <http://purl.org/dc/elements/1.1/description> "An adenine nucleotide comprised of three phosphate groups esterified to the sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength"@en,
-        rdfs:label "Adenosine Triphosphate"@en,
+        <http://purl.org/dc/elements/1.1/description> "An adenine nucleotide comprised of three phosphate groups esterified to the ribose sugar moiety, found in all living cells. Adenosine triphosphate is involved in energy production for metabolic processes and RNA synthesis. In addition, this substance acts as a neurotransmitter. In cancer studies, adenosine triphosphate is synthesized to examine its use to decrease weight loss and improve muscle strength"@en,
+        rdfs:label "adenosine triphosphate"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ATP8A2_Protein"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#ATP8A2_wt_Allele"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Adenosine_Triphosphate"^^rdf:PlainLiteral,
@@ -468,6 +492,11 @@ Class: <http://bio2rdf.org/term#term_40ef544c78438cf97666c505f100b6bc>
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_30616"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_57299"^^rdf:PlainLiteral
     
+    EquivalentTo: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000009>
+         and (<http://semanticscience.org/resource/SIO_000053> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000006>)
+         and (<http://semanticscience.org/resource/SIO_000053> exactly 3 <http://bio2rdf.org/mechtox_language#MECHTOX_000000>)
+    
     
 Class: <http://bio2rdf.org/term#term_d9d17d7782fa7b5e5a8a0c09bd096e39>
 
@@ -478,7 +507,8 @@ Class: <http://bio2rdf.org/term#term_d9d17d7782fa7b5e5a8a0c09bd096e39>
 Class: <http://bio2rdf.org/term#term_f5a977906f706a07e468e271e6cad227>
 
     Annotations: 
-        rdfs:label "Hsp90 inhibitor"^^rdf:PlainLiteral
+        rdfs:comment "An Hsp90 inhibitor is a chemical entity which inhibits the function of Heat Shock Protein 90 (Hsp90) protein."@en,
+        rdfs:label "Hsp90 inhibitor"@en
     
     
 Class: <http://bio2rdf.org/term#term_ecad3d5f3485b32d23bdca37146ae88a>
@@ -515,13 +545,15 @@ Class: <http://bio2rdf.org/term#term_402a8e72bcab55df59119e8c5cff013d>
 Class: <http://bio2rdf.org/term#term_c4e184fdac6c9f84fbe5ff71a0f476aa>
 
     Annotations: 
-        rdfs:label "acidic dissociable group"^^rdf:PlainLiteral
+        rdfs:comment "An acidic dissociable group is a chemical functional group that dissasociates in an acidic solution."@en,
+        rdfs:label "acidic dissociable group"@en
     
     
 Class: <http://bio2rdf.org/term#term_c7959107a95b5cbdbe541cefd8dd8d6c>
 
     Annotations: 
-        rdfs:label "JNK kinase inhibitor"^^rdf:PlainLiteral
+        rdfs:comment "A c-Jun N-Terminal Kinase (JNK) inhibitor is a chemical entity which inhibits the function of a c-Jun N-Terminal kinase (JNK)"@en,
+        rdfs:label "JNK kinase inhibitor"@en
     
     
 Class: <http://bio2rdf.org/term#term_61db33b7b661709b6e2efdbac17f9e36>
@@ -546,12 +578,6 @@ Class: <http://bio2rdf.org/term#term_d566c7267a302b49c5a1543025ff8310>
         rdfs:seeAlso "http://www.pamgene.com/ontology/K2P.owl#Kinase"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_6442d61bef9e2f0bc18c7a282c1b780d>
-
-    Annotations: 
-        rdfs:label "mechanism of inhibition"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_32a228ed0a1940b82b13321edb86288f>
 
     Annotations: 
@@ -568,6 +594,12 @@ Class: <http://bio2rdf.org/term#term_32a228ed0a1940b82b13321edb86288f>
         rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Mutation"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://www.owl-ontologies.com/Ontology1195292020.owl#Mutation"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://www.owl-ontologies.com/Ontology1207125891.owl#Mutation"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_6442d61bef9e2f0bc18c7a282c1b780d>
+
+    Annotations: 
+        rdfs:label "mechanism of inhibition"^^rdf:PlainLiteral
     
     
 Class: <http://bio2rdf.org/term#term_c3edd9d5554857c6d0072cb56ea442ff>
@@ -588,18 +620,23 @@ Class: <http://bio2rdf.org/term#term_c3edd9d5554857c6d0072cb56ea442ff>
 Class: <http://semanticscience.org/resource/SIO_010334>
 
     
+Class: <http://semanticscience.org/resource/SIO_010337>
+
+    
 Class: <http://semanticscience.org/resource/SIO_000624>
 
     
 Class: <http://bio2rdf.org/term#term_93087b5b4356d0852f986baef7258b9b>
 
     Annotations: 
-        rdfs:label "Trancription inhibitor"^^rdf:PlainLiteral
+        rdfs:comment "A transcription inhibitor is a chemical entity which prevents or downregulates transcription."@en,
+        rdfs:label "Trancription inhibitor"@en
     
     
 Class: <http://bio2rdf.org/term#term_3960c69d2ac9ef6ed048ae17d9360fbf>
 
     Annotations: 
+        rdfs:comment "FADH is the reduced form of  a flavin adenine dinucleotide (FAD) molecule"@en,
         rdfs:label "FADH"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022570"^^rdf:PlainLiteral
     
@@ -607,7 +644,8 @@ Class: <http://bio2rdf.org/term#term_3960c69d2ac9ef6ed048ae17d9360fbf>
 Class: <http://bio2rdf.org/term#term_3294ece26cc478678b77e9c3789113be>
 
     Annotations: 
-        rdfs:label "SERCA inhibtor"^^rdf:PlainLiteral
+        rdfs:comment "A sarco/endoplasmic reticulum calcium atpase(SERCA) inhibitor is a chemical entity which inhibits the function of a sarco/endoplasmic reticulum calcium atpase(SERCA) protein."@en,
+        rdfs:label "SERCA inhibtor"@en
     
     
 Class: <http://bio2rdf.org/term#term_a9c00f4669262e6841bfaae5daab053c>
@@ -758,12 +796,6 @@ Class: <http://bio2rdf.org/term#term_0e745d5f843cd3a18559de41bc28344b>
         rdfs:label "partial electrical charge"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_11127a52b058bf8385d5b86ffac8e5da>
-
-    Annotations: 
-        rdfs:label "beta-lactame"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_4385738b1450a64b743b258c7c551701>
 
     Annotations: 
@@ -808,10 +840,17 @@ Class: <http://bio2rdf.org/term#term_4385738b1450a64b743b258c7c551701>
         rdfs:seeAlso "http://www.semanticweb.org/ontologies/2010/2/MiRNA-Ontology.owl#Kidney"^^rdf:PlainLiteral
     
     
+Class: <http://bio2rdf.org/term#term_11127a52b058bf8385d5b86ffac8e5da>
+
+    Annotations: 
+        rdfs:label "beta-lactame"^^rdf:PlainLiteral
+    
+    
 Class: <http://bio2rdf.org/term#term_3411ce293418d17bd0878cb8eebd14f5>
 
     Annotations: 
-        rdfs:label "IKK-2 inhibitor"^^rdf:PlainLiteral
+        rdfs:comment "A IKK-2 inhibitor in a chemical entity which inhibits the function of 'inhibitor of nuclear factor kappa-B kinase subunit beta' (IKK-2)"@en,
+        rdfs:label "IKK-2 inhibitor"@en
     
     
 Class: <http://bio2rdf.org/term#term_7e7675d4f525f55bbb210a6cc01ee7d7>
@@ -824,15 +863,15 @@ Class: <http://bio2rdf.org/term#term_7e7675d4f525f55bbb210a6cc01ee7d7>
 Class: <http://bio2rdf.org/term#term_d8fdb66f6e0ef6506faaf32e62d8fa67>
 
     Annotations: 
-        rdfs:label "amino acid residue"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_33708"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010074"^^rdf:PlainLiteral
+        rdfs:label "amino acid residue"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_33708"@en,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010074"@en
     
     
 Class: <http://bio2rdf.org/term#term_155f0939e210507ba2dbb50541a05f11>
 
     Annotations: 
-        rdfs:label "Na+ gradient"^^rdf:PlainLiteral
+        rdfs:label "sodium ion gradient"@en
     
     
 Class: <http://semanticscience.org/resource/SIO_010030>
@@ -841,7 +880,8 @@ Class: <http://semanticscience.org/resource/SIO_010030>
 Class: <http://bio2rdf.org/term#term_8215096264a79475fa2576a43ceb74c7>
 
     Annotations: 
-        rdfs:label "NADH"^^rdf:PlainLiteral,
+        rdfs:comment "The compound is a dinucleotide consisting of two nucleotides joined through their respective phosphate groups with one nucelotide containing an adenine base and the other containing nicotinamide."@en,
+        rdfs:label "nicotinamide adenine dinucleotide"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0062566"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2510-6440"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D009243"^^rdf:PlainLiteral,
@@ -866,13 +906,14 @@ Class: <http://bio2rdf.org/term#term_86fa83b6f29a1424c772c77d64588eba>
 Class: <http://bio2rdf.org/term#term_507e935a0f2208b571dfc60bf56d38a6>
 
     Annotations: 
-        rdfs:label "anion"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_22563"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1626-7005"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa4gK"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/47707009"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_22563"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010458"^^rdf:PlainLiteral
+        rdfs:comment "an anion is an ion with more electrons than protons., giving it a net negative charge."@en,
+        rdfs:label "anion"@en,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_22563"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1626-7005"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/Xa4gK"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/47707009"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_22563"@en,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010458"@en
     
     
 Class: <http://bio2rdf.org/term#term_036238176b22096285df69130b474c8d>
@@ -910,7 +951,7 @@ Class: <http://bio2rdf.org/term#term_c88058092f8b15ed7c9f9eae595eb0c1>
 Class: <http://bio2rdf.org/term#term_38774fdf1a6c37d5983213810c3a1d65>
 
     Annotations: 
-        rdfs:label "anionic form"^^rdf:PlainLiteral
+        rdfs:label "anionic form"@en
     
     
 Class: <http://bio2rdf.org/term#term_02cb096aee40c99c4ee65c6ea730653b>
@@ -937,6 +978,7 @@ Class: <http://bio2rdf.org/term#term_d2f34215f48319b1d769614d3f8a0f85>
 Class: <http://bio2rdf.org/term#term_fbec9ae8be16065d639b818a6fbdadad>
 
     Annotations: 
+        rdfs:comment "A Retinoid receptor inhibbitor is a chemical entity which inhibits the function or actions of retinoic receptors."@en,
         rdfs:label "Retinoid receptor inhibitor"^^rdf:PlainLiteral
     
     
@@ -993,10 +1035,46 @@ Class: <http://bio2rdf.org/term#term_5cde3bd91b24c6fcbe6ba3d6eb3e45e4>
         rdfs:seeAlso "http://www.mygrid.org.uk/ontology/JERMOntology#electrophoresis"^^rdf:PlainLiteral
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000009>
+
+    Annotations: 
+        rdfs:label "ribonucleotide"@
+    
+    EquivalentTo: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000008>
+         and (<http://semanticscience.org/resource/SIO_000053> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000004>)
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000008>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000008>
+
+    Annotations: 
+        rdfs:comment "A nucleotide is composed of a nucleobase, a five-carbon sugar, and one to three phosphate groups."@,
+        rdfs:label "nucleotide"@,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nucleotides"@
+    
+    EquivalentTo: 
+        <http://semanticscience.org/resource/SIO_010072>
+         and (<http://semanticscience.org/resource/SIO_000053> some <http://semanticscience.org/resource/SIO_010334>)
+         and (<http://semanticscience.org/resource/SIO_000053> min 1 <http://bio2rdf.org/mechtox_language#MECHTOX_000000>)
+         and (<http://semanticscience.org/resource/SIO_000053> exactly 1 <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000003>)
+    
+    
 Class: <http://bio2rdf.org/term#term_f737e510ae4b46fae84487cdaff2ec2b>
 
     Annotations: 
         rdfs:label "mitochondrial uncoupler"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000005>
+
+    Annotations: 
+        rdfs:label "pyrimidine nucleobases"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000003>
     
     
 Class: <http://bio2rdf.org/term#term_fe05daefec20ebe1b4e907765ccf0abf>
@@ -1006,12 +1084,42 @@ Class: <http://bio2rdf.org/term#term_fe05daefec20ebe1b4e907765ccf0abf>
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1946-1004"^^rdf:PlainLiteral
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000004>
+
+    Annotations: 
+        rdfs:label "purine nucleobases"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000003>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000007>
+
+    Annotations: 
+        rdfs:label "adenosine diphosphate"@
+    
+    EquivalentTo: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000009>
+         and (<http://semanticscience.org/resource/SIO_000053> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000006>)
+         and (<http://semanticscience.org/resource/SIO_000028> exactly 2 <http://bio2rdf.org/mechtox_language#MECHTOX_000000>)
+    
+    
 Class: <http://bio2rdf.org/term#term_6d882bf92560fb34a45617bd5a0d0202>
 
     Annotations: 
         rdfs:label "hepatocellular injury"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Damage"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10019837"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000006>
+
+    Annotations: 
+        rdfs:comment "An adenine nucleobase that is a part of a larger molecule."@en,
+        rdfs:label "adenine residue"@
+    
+    SubClassOf: 
+        owl:Thing
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000001>
@@ -1039,6 +1147,24 @@ Class: <http://bio2rdf.org/term#term_8c5a34fd0d95646cb7b761ced2c19637>
 
     Annotations: 
         rdfs:label "proton concentration gradient"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000003>
+
+    Annotations: 
+        rdfs:label "nucleobases"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010072>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000002>
+
+    Annotations: 
+        rdfs:label "adenine"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000004>
     
     
 Class: <http://bio2rdf.org/term#term_a1741cbb12148ca8a0709891b5b86118>
@@ -1085,11 +1211,12 @@ Class: <http://bio2rdf.org/term#term_9c696fda0fcceb189514ac6bc0a95f8e>
 Class: <http://bio2rdf.org/term#term_6868f8ecbe9e6f6d5bfdd4d661feb346>
 
     Annotations: 
-        rdfs:label "active site"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Active_Site"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4000-0107"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D020134"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010041"^^rdf:PlainLiteral
+        rdfs:comment "The catalytic site of an enzyme, the part of an enzyme where the actual enzymatic function is performed."@en,
+        rdfs:label "active site"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Active_Site"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4000-0107"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D020134"@en,
+        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010041"@en
     
     
 Class: <http://bio2rdf.org/term#term_27eeaf994d9eff1a9c65e8f6cb51db19>
@@ -1106,22 +1233,24 @@ Class: <http://bio2rdf.org/term#term_27eeaf994d9eff1a9c65e8f6cb51db19>
 Class: <http://bio2rdf.org/term#term_76d8f3a9864ef3c10d77234aa125dd90>
 
     Annotations: 
-        rdfs:label "Na+ transport channel"^^rdf:PlainLiteral
+        rdfs:comment "A sodium transport channel is a membrane transport protein which facilitates transport of sodium ions across the lipid bilayer."@en,
+        rdfs:label "sodium transport channel"@en
     
     
 Class: <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>
 
     Annotations: 
-        rdfs:label "aconitase"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0002730"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0004716"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0815-3169"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000154"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761236025528"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/54239002"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003631"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003632"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022043"^^rdf:PlainLiteral
+        rdfs:comment "Aconitase (aconitate hydratase; EC 4.2.1.3) is an enzyme that catalyses the stereo-specific isomerization of citrate to isocitrate via cis-aconitate in the tricarboxylic acid cycle, a non-redox-active process"@en,
+        rdfs:label "aconitase"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0002730"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_B0004716"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0815-3169"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000154"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7761236025528"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/54239002"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003631"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000003632"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022043"@en
     
     
 Class: <http://bio2rdf.org/term#term_a483bb6733c1a151d0cf49017ed567eb>
@@ -1162,6 +1291,13 @@ Class: <http://bio2rdf.org/term#term_e29bd40e8351256de00bf0ca4211ee70>
         rdfs:label "covanlent bound"^^rdf:PlainLiteral
     
     
+Class: <http://bio2rdf.org/term#term_03649956779e36a9429b47c85945b409>
+
+    Annotations: 
+        rdfs:comment "An IkBa phosphorylation inhibitor is a chemical entity which inhibits the phosphorylation of 'nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha' (IkBa)"@en,
+        rdfs:label "IkBa phosphorylation inhibitor"@en
+    
+    
 Class: <http://bio2rdf.org/term#term_88bd20317717141e3eb7558b5eaeda99>
 
     Annotations: 
@@ -1171,39 +1307,33 @@ Class: <http://bio2rdf.org/term#term_88bd20317717141e3eb7558b5eaeda99>
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_35703"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_03649956779e36a9429b47c85945b409>
-
-    Annotations: 
-        rdfs:label "IkBa phosphorylation inhibitor"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_b68dca981c865b3540b786da654ac9d0>
 
     Annotations: 
-        rdfs:label "arrhythmia"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID11309"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ihtsdo.org/snomedct/clinicalFinding#44808001"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Arrhythmia"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1393-3277"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/ARRHYTHMIA"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/HP/HP_0001665"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K80012"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K84002"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10003119"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MEDLINEPLUS/T147"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001145"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C1116"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU012522"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X77BB"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/251151005"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/44808001"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/53488008"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/WHO/0433"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/HP#HP_0001665"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0001636"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/SYMP#SYMP_0000287"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.icn.ch/icnp#Arrhythmia"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Arrhythmia"^^rdf:PlainLiteral
+        rdfs:label "arrhythmia"@en,
+        rdfs:seeAlso "http://bioontology.org/projects/ontologies/radlex/radlexOwl#RID11309"@en,
+        rdfs:seeAlso "http://ihtsdo.org/snomedct/clinicalFinding#44808001"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Arrhythmia"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1393-3277"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CST/ARRHYTHMIA"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/HP/HP_0001665"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K80012"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/ICPC2P/K84002"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10003119"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MEDLINEPLUS/T147"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001145"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C1116"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/MTHU012522"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X77BB"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/251151005"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/44808001"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/53488008"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/WHO/0433"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/HP#HP_0001665"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0001636"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/SYMP#SYMP_0000287"@en,
+        rdfs:seeAlso "http://www.icn.ch/icnp#Arrhythmia"@en,
+        rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Arrhythmia"@en
     
     
 Class: <http://bio2rdf.org/term#term_bf5cc030d8f4be924067dffe8f9dd4f2>
@@ -1215,6 +1345,7 @@ Class: <http://bio2rdf.org/term#term_bf5cc030d8f4be924067dffe8f9dd4f2>
 Class: <http://bio2rdf.org/term#term_d1dc4e345124fc43ef5afc951e39a3f3>
 
     Annotations: 
+        rdfs:comment "A CYP inhibitor is chemical which inhibits the function of the Cytochrome p450 oxidase system."@en,
         rdfs:label "CYP inhibitor"^^rdf:PlainLiteral
     
     
@@ -1400,6 +1531,7 @@ Class: <http://bio2rdf.org/term#term_2100dd9e489048d28715a37b759f59f1>
 Class: <http://bio2rdf.org/term#term_7f81423d3ebcc8bdbcdde4842f8ea52c>
 
     Annotations: 
+        rdfs:comment "A NF(alpha)B pathway inhibitor is a chemical entity which inhbits the function of the NF(alpha)B pathway."@en,
         rdfs:label "NF(alpha)B pathway inhibitor"^^rdf:PlainLiteral
     
     
@@ -1435,6 +1567,14 @@ Class: <http://bio2rdf.org/term#term_11ccd933d0bfeae357a891d37e6c0160>
         rdfs:label "dopanimergic neuron"^^rdf:PlainLiteral
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000010>
+
+    Annotations: 
+        rdfs:comment "Estrogen Receptors are cytoplasmic hormone-activated receptors that act as nuclear transcription factors composed of an N-terminal transcription activation/modulation domain, a DNA-binding domain, and a C-terminal steroid-binding domain. Binding to DNA as a homo- or heterodimer, ESR interacts with NCOA3, NCOA5, and NCOA6 coactivators. Hormone-ESR complexes appear to recognize discrete upstream target ERE DNA sequences to regulate gene expression, cell proliferation, and differentiation. DNA-binding is lost in the absence of ligand. (NCI)"@en,
+        rdfs:label "estrogen receptor"@,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Estrogen_Receptor"@en
+    
+    
 Class: <http://bio2rdf.org/term#term_a99dca5593185c498b63a5eed917bd4f>
 
     Annotations: 
@@ -1466,6 +1606,12 @@ Class: <http://bio2rdf.org/term#term_a99dca5593185c498b63a5eed917bd4f>
         rdfs:seeAlso "http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6754"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000311"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#Cancer"^^rdf:PlainLiteral
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000011>
+
+    Annotations: 
+        rdfs:label "flavin adenine dicucleotide"@
     
     
 Class: <http://bio2rdf.org/term#term_56cd181dd6bf99dd38e6cec914f9a56a>
@@ -1528,18 +1674,19 @@ Class: <http://bio2rdf.org/term#term_183a59850b0680d6718d1198e5295259>
 Class: <http://bio2rdf.org/term#term_d7bbd5ca151d0296f70135f84d9e1c60>
 
     Annotations: 
-        rdfs:label "actin"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Actin"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao925531236"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2446-6600"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP14639-6"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000199"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7759329144905"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X80OU"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/46583003"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67843"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://sig.uw.edu/fma#Actin"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Actin"^^rdf:PlainLiteral
+        rdfs:comment "A globular subunit of microfilaments, highly conserved Actin is one of the most abundant proteins in eukaryotic cells. Monomeric actin, a slow ATPase composed of a 375 amino acid polypeptide chain, interacts with one molecule of ATP or ADP and contains high affinity and low affinity binding sites for divalent cations. Actin can quickly assemble into long microfilament polymers. In conjunction with myosin, actin is responsible for the contraction and relaxation of muscle."@en,
+        rdfs:label "actin"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Actin"@en,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Molecule.owl#sao925531236"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2446-6600"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP14639-6"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D000199"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7759329144905"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X80OU"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/46583003"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67843"@en,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Actin"@en,
+        rdfs:seeAlso "http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Actin"@en
     
     
 Class: <http://bio2rdf.org/term#term_1ead8edf385c835d2069d58816c085be>
@@ -1562,7 +1709,8 @@ Class: <http://bio2rdf.org/term#term_ae3c24fefa3cc285451a4e58a1047e13>
 Class: <http://bio2rdf.org/term#term_5b94831e0192892a732df18165459dd4>
 
     Annotations: 
-        rdfs:label "DNA alkylation"^^rdf:PlainLiteral,
+        rdfs:comment "DNA Alkylation involves the addition of alkyl groups to any of several vulnerable positions on all four of the DNA bases. Alkylating agents can also modify the bases of incoming nucleotides in the course of DNA synthesis. (Gene Ontology and NCI)"@en,
+        rdfs:label "DNA alkylation"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DNA_Alkylation"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0006305"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006305"^^rdf:PlainLiteral
@@ -1637,6 +1785,7 @@ Class: <http://bio2rdf.org/term#term_dc945e7f679b80f9e65b82203606b179>
 Class: <http://bio2rdf.org/term#term_ad98e8188323f0165d36920e7f8c5e53>
 
     Annotations: 
+        rdfs:comment "A MEK kinase inhibitor is a chemical entity that inhbits the function of a member of the MAPK/ERK proteins"@en,
         rdfs:label "MEK kinase inhibitor"^^rdf:PlainLiteral
     
     
@@ -1681,16 +1830,16 @@ Class: <http://bio2rdf.org/term#term_090dc344924cc30916e96dbaa87e3dd9>
         rdfs:label "polycyclic aromatic bay region"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_53bb9b28a589aee867981e257f68026e>
-
-    Annotations: 
-        rdfs:label "selective accumulation"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_e47dc130d9d13a6a541d1237c832d3fe>
 
     Annotations: 
         rdfs:label "protein chaperone"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_53bb9b28a589aee867981e257f68026e>
+
+    Annotations: 
+        rdfs:label "selective accumulation"^^rdf:PlainLiteral
     
     
 Class: <http://bio2rdf.org/term#term_2759ed3208f4e40bb12bef7514ef4fcb>
@@ -1765,20 +1914,21 @@ Class: <http://bio2rdf.org/term#term_b745d21b8f0540111080249f291b63b9>
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_57925"^^rdf:PlainLiteral
     
     
+Class: <http://bio2rdf.org/term#term_1474047fb00b2d8d95646f7436837ed0>
+
+    Annotations: 
+        rdfs:comment "The forces of attraction between two chemical species"@en,
+        rdfs:label "affinity"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Affinity"@en,
+        rdfs:seeAlso "http://purl.org/ddi/owl#affinity"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002070"@en,
+        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneProductAffinity"@en
+    
+    
 Class: <http://bio2rdf.org/term#term_e7ae1571b398a477ea6c78be47d4defb>
 
     Annotations: 
         rdfs:label "intracellular cAMP increase"^^rdf:PlainLiteral
-    
-    
-Class: <http://bio2rdf.org/term#term_1474047fb00b2d8d95646f7436837ed0>
-
-    Annotations: 
-        rdfs:label "affinity"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Affinity"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/ddi/owl#affinity"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002070"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#GeneProductAffinity"^^rdf:PlainLiteral
     
     
 Class: <http://bio2rdf.org/term#term_e98df0a7dcdea74a929d9af591ddf2a7>
@@ -1823,14 +1973,16 @@ Class: <http://bio2rdf.org/term#term_d09ad79a5872f02ce64c106bedc124f5>
 Class: <http://bio2rdf.org/term#term_2e0368635e89f33fa73f007e7f8bbbfa>
 
     Annotations: 
+        rdfs:comment "A estrogen receptor antagonist is a type of estrongen receptor ligand or drug that does not provoke a biological response itself upon binding to a receptor, but blocks or dampens agonist-mediated responses"@en,
         rdfs:label "Estrogen Receptor Antagonist"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50792"^^rdf:PlainLiteral
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50792"@en
     
     
 Class: <http://bio2rdf.org/term#term_95307dd6eb8109265b2854462bc45c93>
 
     Annotations: 
-        rdfs:label "HMG-CoA reductase inhibitor"^^rdf:PlainLiteral,
+        rdfs:comment "An HMG-CoA reductase inhibtor is a chemical entity which inhibits the function of HMG-CoA reductase."@en,
+        rdfs:label "HMG-CoA reductase inhibitor"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#HMG-CoA_Reductase_Inhibitor"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C420"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C634982"^^rdf:PlainLiteral,
@@ -1842,7 +1994,8 @@ Class: <http://bio2rdf.org/term#term_95307dd6eb8109265b2854462bc45c93>
 Class: <http://bio2rdf.org/term#term_cfa01cfd9cedf7512d4586c215b77192>
 
     Annotations: 
-        rdfs:label "nuclear receptor"^^rdf:PlainLiteral,
+        rdfs:comment "Proteins that regulate transcription via interaction with chromatin and basal transcription machinery at the promoter regions of genes. Nuclear receptors are ligand-dependent transcription factors including steroids, retinoids, vitamin D, unliganded thyroid hormone, and orphan receptors (unknown ligands). Coregulators (coactivators or corepressors) are important in mediating these interactions and thereby modulate positive or negative receptor activity."@en,
+        rdfs:label "nuclear receptor",
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nuclear_Receptor"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/5000-0050"^^rdf:PlainLiteral
     
@@ -1885,25 +2038,19 @@ Class: <http://bio2rdf.org/term#term_b32f8ff8a8a9a0cf05c6d896ddd54a98>
 Class: <http://bio2rdf.org/term#term_832ce5c7e20388d314c33ef89a8cda4a>
 
     Annotations: 
-        rdfs:label "ATP synthase"^^rdf:PlainLiteral,
+        rdfs:comment "ATP synthase (EC 3.6.3.14) is a general term for an enzyme that can synthesize adenosine triphosphate (ATP) from adenosine diphosphate (ADP) and inorganic phosphate"@en,
+        rdfs:label "ATP synthase"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0016467"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0016468"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0016467"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0016468"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_561d756829182e1cd3c49d840d0861a5>
-
-    Annotations: 
-        rdfs:label "neoplastic initiation"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_2906787b33723f3428d81cd480e9b174>
 
     Annotations: 
-        rdfs:label "Km"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Comoros"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Kilometer"^^rdf:PlainLiteral,
+        rdfs:comment "a dissociation constant is a specific type of equilibrium constant that measures the propensity of a larger object to separate (dissociate) reversibly into smaller components, as when a complex falls apart into its component molecules, or when a salt splits up into its component ions"@en,
+        rdfs:label "dissasociation constant"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Km"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0000910"^^rdf:PlainLiteral,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/HCPCS/KM"^^rdf:PlainLiteral,
@@ -1914,11 +2061,18 @@ Class: <http://bio2rdf.org/term#term_2906787b33723f3428d81cd480e9b174>
         rdfs:seeAlso "http://purl.org/obo/owl/SBO#SBO_0000027"^^rdf:PlainLiteral
     
     
+Class: <http://bio2rdf.org/term#term_561d756829182e1cd3c49d840d0861a5>
+
+    Annotations: 
+        rdfs:label "neoplastic initiation"^^rdf:PlainLiteral
+    
+    
 Class: <http://bio2rdf.org/term#term_9cfa95aeed9159d1913d994dfe17815d>
 
     Annotations: 
-        rdfs:label "DNA adduct"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DNA_Adduct"^^rdf:PlainLiteral
+        rdfs:comment "A DNA adduct is a chemical entity which is covalently connected to DNA"@en,
+        rdfs:label "DNA adduct"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#DNA_Adduct"@en
     
     
 Class: <http://bio2rdf.org/term#term_b3e2f43bedad4331e6a5139ca8ca6791>
@@ -1935,8 +2089,9 @@ Class: <http://bio2rdf.org/term#term_b3e2f43bedad4331e6a5139ca8ca6791>
 Class: <http://bio2rdf.org/term#term_a79917ef1e18c295a5329bc08398ebe3>
 
     Annotations: 
-        rdfs:label "Pi-3 kinase inhibitor"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50914"^^rdf:PlainLiteral
+        rdfs:comment "A phosphoinositide 3-kinase (Pi-3) inhibitor is a chemical entity which inhbits the function of Phosphoinositide 3-kinase."@en,
+        rdfs:label "Pi-3 kinase inhibitor"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50914"@en
     
     
 Class: <http://bio2rdf.org/term#term_d5b9fa600bc1c7a205ef3647cdf50229>
@@ -1960,18 +2115,20 @@ Class: <http://bio2rdf.org/term#term_413f3a95ae27698164bdadf55b0bef8c>
 Class: <http://bio2rdf.org/term#term_98e720b3d49f0991c3c3e01ff220f33c>
 
     Annotations: 
-        rdfs:label "aromatic"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDDF/006976"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_276"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002191"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.co-ode.org/ontologies/amino-acid/2005/10/11/amino-acid.owl#Aromatic"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"^^rdf:PlainLiteral
+        rdfs:comment "A molecular quality that inheres in a molecular entity when it possesses at least one ring that is aromatic, i.e. a conjugated ring of unsaturated bonds, lone pairs, or empty orbitals that exhibit a stabilization stronger than would be expected by the stabilization of conjugation alone."@en,
+        rdfs:label "aromatic"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDDF/006976"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_276"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/PATO#PATO_0002191"@en,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/amino-acid/2005/10/11/amino-acid.owl#Aromatic"@en,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/amino-acid/2006/05/18/amino-acid.owl#Aromatic"@en
     
     
 Class: <http://bio2rdf.org/term#term_16ffbd0e15d8921393411821950e41a8>
 
     Annotations: 
-        rdfs:label "DNA mismatch"^^rdf:PlainLiteral
+        rdfs:comment "The process of erroneous DNA base base residue matching."@en,
+        rdfs:label "DNA mismatch"@en
     
     
 Class: <http://bio2rdf.org/term#term_708f87e402da3bc98e30cb622c72c30c>
@@ -1983,8 +2140,9 @@ Class: <http://bio2rdf.org/term#term_708f87e402da3bc98e30cb622c72c30c>
 Class: <http://bio2rdf.org/term#term_2d7200950d51c0bfc8a6e28b306ea3df>
 
     Annotations: 
-        rdfs:label "Parkinsons"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/Dysfunction/NIF-Dysfunction.owl#birnlex_2098"^^rdf:PlainLiteral
+        rdfs:comment "A disease characterized as a progressive motor disability manifested by tremors, shaking, muscular rigidity, and lack of postural reflexes. (PSY) * A progressive, degenerative neurologic disease characterized by a TREMOR that is maximal at rest, retropulsion (i.e. a tendency to fall backwards), rigidity, stooped posture, slowness of voluntary movements, and a masklike facial expression. Pathologic features include loss of melanin containing neurons in the substantia nigra and other pigmented nuclei of the brainstem. LEWY BODIES are present in the substantia nigra and locus coeruleus but may also be found in a related condition (LEWY BODY DISEASE, DIFFUSE) characterized by dementia in combination with varying degrees of parkinsonism. (Adams et al., Principles of Neurology, 6th ed, p1059, pp1067-75) (MSH) * progressive, degenerative disorder of the nervous system characterized by tremors, rigidity, bradykinesia, postural instability, and gait abnormalities; caused by a loss of neurons and a decrease of dopamine in the basal ganglia. (CSP)"@en,
+        rdfs:label "Parkinsons"@en,
+        rdfs:seeAlso "http://ontology.neuinfo.org/NIF/Dysfunction/NIF-Dysfunction.owl#birnlex_2098"@en
     
     
 Class: <http://bio2rdf.org/term#term_298337be05c633221e2ffcf9c8e460b5>
@@ -2018,8 +2176,9 @@ Class: <http://bio2rdf.org/term#term_60f99de9da8fa87b30f9b250cd041126>
 Class: <http://bio2rdf.org/term#term_5cf31ab49362c67a336f566a72fe61cc>
 
     Annotations: 
-        rdfs:label "Retinoid receptor"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Retinoid_Receptor"^^rdf:PlainLiteral
+        rdfs:comment "A Retinoid receptor is a type of nuclear receptor that is activated by all-trans retinoic acid and 9-cis retinoic acid."@en,
+        rdfs:label "Retinoid receptor"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Retinoid_Receptor"@en
     
     
 Class: <http://bio2rdf.org/term#term_deb2d7ad253629f693d5d652a306b591>
@@ -2043,17 +2202,17 @@ Class: <http://bio2rdf.org/term#term_19d4981a437c2651a3541f3f2cce2b33>
 Class: <http://bio2rdf.org/term#term_d781f18930a85fed0682cc3d548b4874>
 
     Annotations: 
-        rdfs:label "antibiotic"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antibiotic"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0189-5476"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/PDQ/CDR0000043008"^^rdf:PlainLiteral,
+        rdfs:label "antibiotic"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X794g"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/255631004"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/41000005"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_22582"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/IDO_0000562"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://purl.org/obo/owl/IDOMAL#IDOMAL_0000643"^^rdf:PlainLiteral,
-        rdfs:seeAlso "http://www.icn.ch/icnp#Antibiotic"^^rdf:PlainLiteral
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Antibiotic"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/0189-5476"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/PDQ/CDR0000043008"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/255631004"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/41000005"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_22582"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/IDO_0000562"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/IDOMAL#IDOMAL_0000643"@en,
+        rdfs:seeAlso "http://www.icn.ch/icnp#Antibiotic"@en
     
     
 Class: <http://bio2rdf.org/term#term_96d7ee0ad1798dd0801e2c559d9fcacc>
@@ -2082,16 +2241,16 @@ Class: <http://bio2rdf.org/term#term_7e6e4eb3ff27864637756cb4d2a2a45d>
         rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#irreversible"^^rdf:PlainLiteral
     
     
-Class: <http://bio2rdf.org/term#term_43f958afb7bac14008652a2aafd675a4>
-
-    Annotations: 
-        rdfs:label "pyridine group"^^rdf:PlainLiteral
-    
-    
 Class: <http://bio2rdf.org/term#term_41d3a212e546dec228945d98bcee43da>
 
     Annotations: 
         rdfs:label "inducer"^^rdf:PlainLiteral
+    
+    
+Class: <http://bio2rdf.org/term#term_43f958afb7bac14008652a2aafd675a4>
+
+    Annotations: 
+        rdfs:label "pyridine group"^^rdf:PlainLiteral
     
     
 Class: <http://bio2rdf.org/term#term_5e0d1d8459a976d0358a2a0526fd58db>
@@ -2103,7 +2262,8 @@ Class: <http://bio2rdf.org/term#term_5e0d1d8459a976d0358a2a0526fd58db>
 Class: <http://bio2rdf.org/term#term_745ee42d67103ed5e95aea80f69fc918>
 
     Annotations: 
-        rdfs:label "DNA alkylating agent"^^rdf:PlainLiteral,
+        rdfs:comment "A DNA alkylating agent is a chemical entity with the potential/ability to transfer an alkyl group to DNA."@en,
+        rdfs:label "DNA alkylating agent"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_235"^^rdf:PlainLiteral
     
     
