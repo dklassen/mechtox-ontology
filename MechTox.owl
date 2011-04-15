@@ -539,11 +539,53 @@ Class: <http://bio2rdf.org/term#term_3960c69d2ac9ef6ed048ae17d9360fbf>
         rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022570"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000258>
+
+    Annotations: 
+        rdfs:comment "Encoded by human IL2 Gene, Interleukin-2 is a secreted cytokine important for proliferation of T and B lymphocytes. The receptor of this cytokine is a heterotrimeric protein complex whose gamma chain is also shared by interleukin 4 (IL4) and interleukin 7 (IL7). IL2 expression in mature thymocytes is monoallelic, which represents an unusual regulatory mode for controlling expression of a single gene. Targeted disruption of a similar gene in mice leads to ulcerative colitis-like disease, which suggests an essential role in the immune response to antigenic stimuli. (From LocusLink)"@en,
+        rdfs:label "interleukin-2"@,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Interleukin-2"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MCCL/FMA_84051"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PR_000001379"@en,
+        rdfs:seeAlso "http://sig.uw.edu/fma#Interleukin-2"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000257>
+
+    Annotations: 
+        rdfs:label "rapamycin FK binding protein complex"@en
+    
+    EquivalentTo: 
+        <http://semanticscience.org/resource/SIO_010506>
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000253>)
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000255>)
+    
+    
 Class: <http://bio2rdf.org/term#term_3294ece26cc478678b77e9c3789113be>
 
     Annotations: 
         rdfs:comment "A sarco/endoplasmic reticulum calcium atpase(SERCA) inhibitor is a chemical entity which inhibits the function of a sarco/endoplasmic reticulum calcium atpase(SERCA) protein."@en,
         rdfs:label "SERCA inhibtor"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000259>
+
+    Annotations: 
+        rdfs:label "mTOR complex 1"@,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/C522601"@en
+    
+    EquivalentTo: 
+        <http://semanticscience.org/resource/SIO_010043>
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000262>)
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000263>)
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000264>)
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000266>)
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000254>
+
+    Annotations: 
+        rdfs:label "cyclin-dependent kinase cdk2-cyclin E complex"@en
     
     
 Class: <http://bio2rdf.org/term#term_a9c00f4669262e6841bfaae5daab053c>
@@ -552,6 +594,54 @@ Class: <http://bio2rdf.org/term#term_a9c00f4669262e6841bfaae5daab053c>
         rdfs:comment "A characteristic feature of enzyme activity in relation to the kind of substrate on which the enzyme or catalytic molecule reacts."@en,
         rdfs:label "substrate specificity"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D013379"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000253>
+
+    Annotations: 
+        <http://semanticscience.org/resource/synonym> "rapamune"@en,
+        <http://semanticscience.org/resource/synonym> "sirolimus"@en,
+        rdfs:comment "ChEBI:9168 "@en,
+        rdfs:comment "ChemSpider:3671255 "@en,
+        rdfs:comment "cas:53123-88-9
+"@en,
+        rdfs:comment "drugbank:DB02439"@en,
+        rdfs:comment "smiles:CO[C@H]1C[C@@H](C[C@H](C)[C@@H]2CC(=O)[C@H](C)\C=C(C)/[C@@H](O)[C@H](OC)C(=O)[C@H](C)C[C@H](C)\C=C/C=C\C=C(C)/[C@@H](C[C@@H]3CC[C@H](C)[C@](O)(O3)C(=O)C(=O)N3CCCC[C@@H]3C(=O)O2)C2=CC=C(C)S2)CC[C@@H]1O
+"@en,
+        rdfs:label "rapamycin"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Sirolimus"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_9168"@en,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0001602"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010004>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000256>
+
+    Annotations: 
+        rdfs:label "rapamycin FK binding protein complex formation"@en
+    
+    EquivalentTo: 
+        <http://semanticscience.org/resource/SIO_010285>
+         and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000253>)
+         and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000255>)
+         and (<http://semanticscience.org/resource/SIO_000312> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000257>)
+         and (<http://semanticscience.org/resource/SIO_000355> some 
+            (<http://semanticscience.org/resource/SIO_010367>
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000253>)))
+         and (<http://semanticscience.org/resource/SIO_000355> some 
+            (<http://semanticscience.org/resource/SIO_010367>
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000255>)))
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000255>
+
+    Annotations: 
+        rdfs:label "FK binding protein 12"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010043>
     
     
 Class: <http://bio2rdf.org/term#term_146509c288c7b985235651a5abdc19fa>
@@ -653,6 +743,73 @@ Class: <http://bio2rdf.org/term#term_61f0b5130c99cfe24f3291681fcdea9f>
         rdfs:label "Fjord region"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000269>
+
+    Annotations: 
+        rdfs:label "G1 phase cell cycle arrest"@
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000268>
+
+    Annotations: 
+        rdfs:label "interleukin-2 dependent cell proliferation"@
+    
+    EquivalentTo: 
+        <http://semanticscience.org/resource/SIO_000006>
+         and (<http://semanticscience.org/resource/SIO_000139> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000258>)
+         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000269>)
+         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000270>)
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000267>
+
+    Annotations: 
+        rdfs:comment "Inhibition of mTOR Complex 1 is a process whereby the mTOR complex is inhbited which leads to blocking activation of T-cell and B-Cell."@en,
+        rdfs:label "inhibition of mTOR Complex 1"@
+    
+    EquivalentTo: 
+        <http://bio2rdf.org/term#term_dc945e7f679b80f9e65b82203606b179>
+         and (<http://semanticscience.org/resource/SIO_000139> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000260>)
+         and (<http://semanticscience.org/resource/SIO_000355> some 
+            (<http://semanticscience.org/resource/SIO_010355>
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000253>)
+             and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000266>)))
+         and (<http://semanticscience.org/resource/SIO_000355> some 
+            (<http://semanticscience.org/resource/SIO_010373>
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000266>)
+             and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000253>)))
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000266>
+
+    Annotations: 
+        rdfs:label "mTOR"@
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000265>
+
+    Annotations: 
+        rdfs:label "rapamycin FK binding protein mTORC1 complex formation"@
+    
+    EquivalentTo: 
+        <http://semanticscience.org/resource/SIO_010285>
+         and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000257>)
+         and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000259>)
+         and (<http://semanticscience.org/resource/SIO_000312> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000260>)
+         and (<http://semanticscience.org/resource/SIO_000355> some 
+            (<http://semanticscience.org/resource/SIO_010367>
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000257>)))
+         and (<http://semanticscience.org/resource/SIO_000355> some 
+            (<http://semanticscience.org/resource/SIO_010367>
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000259>)))
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000264>
+
+    Annotations: 
+        rdfs:label "DEPTOR"@
+    
+    
 Class: <http://bio2rdf.org/term#term_0e745d5f843cd3a18559de41bc28344b>
 
     Annotations: 
@@ -699,11 +856,37 @@ Class: <http://bio2rdf.org/term#term_5cd73a88ed24aff2f0e2cfc0867740e9>
         rdfs:label "protein derivatives"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000262>
+
+    Annotations: 
+        rdfs:label "mammalian LST8/G-protein β-subunit like protein"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000263>
+
+    Annotations: 
+        rdfs:label "PRAS40"@
+    
+    
 Class: <http://bio2rdf.org/term#term_86fa83b6f29a1424c772c77d64588eba>
 
     Annotations: 
         rdfs:label "genotoxicity"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4000-0169"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000260>
+
+    Annotations: 
+        rdfs:comment "A protein complex that contains the mTOR (mammalian target of rapamycin) serine/threonine kinase, the peptidyl-prolyl cis-trans isomerase FKBP12 (FKBP1A) and rapamycin (sirolimus)."@en,
+        rdfs:label "rapamycin FK binding protein mTORC1 complex"@en,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0070438"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000261>
+
+    Annotations: 
+        rdfs:label "regulatory associated protein of mTOR (RAPTOR)"@en
     
     
 Class: <http://bio2rdf.org/term#term_036238176b22096285df69130b474c8d>
@@ -737,6 +920,37 @@ Class: <http://bio2rdf.org/term#term_9f4b40836e1e16dcd40ad343028fc0e7>
 
     Annotations: 
         rdfs:label "specific amino acid transporter"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000270>
+
+    Annotations: 
+        rdfs:label "inhibition of T-Cell activation"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000271>
+
+    Annotations: 
+        rdfs:label "mechanism of mTOR inhibition of rapamycin"@
+    
+    EquivalentTo: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000083>
+         and (<http://semanticscience.org/resource/SIO_000028> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000256>)
+         and (<http://semanticscience.org/resource/SIO_000028> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000265>)
+         and (<http://semanticscience.org/resource/SIO_000028> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000267>)
+         and (<http://semanticscience.org/resource/SIO_000028> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000268>)
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000272>
+
+    Annotations: 
+        rdfs:label "inhibition of B-Cell activation"@
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000273>
+
+    Annotations: 
+        rdfs:label "cyclophilin"@
     
     
 Class: <http://bio2rdf.org/term#term_6d882bf92560fb34a45617bd5a0d0202>
@@ -2186,10 +2400,10 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000082>
          and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000252>)
          and (<http://semanticscience.org/resource/SIO_000355> some 
             (<http://semanticscience.org/resource/SIO_010355>
-             and (<http://semanticscience.org/resource/SIO_000646> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000056>)))
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000056>)))
          and (<http://semanticscience.org/resource/SIO_000355> some 
             (<http://semanticscience.org/resource/SIO_010373>
-             and (<http://semanticscience.org/resource/SIO_000646> some <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>)))
+             and (<http://semanticscience.org/resource/SIO_000236> some <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>)))
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000083>
@@ -2218,6 +2432,10 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000081>
 
     Annotations: 
         rdfs:label "citric acid cycle inhibition"@en
+    
+    EquivalentTo: 
+        <http://bio2rdf.org/term#term_dc945e7f679b80f9e65b82203606b179>
+         and (<http://semanticscience.org/resource/SIO_000554> some <http://bio2rdf.org/term#term_736e5e1b4a4393e12a524b95d1e4b475>)
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000086>
@@ -4275,6 +4493,9 @@ Class: <http://bio2rdf.org/term#term_cfa01cfd9cedf7512d4586c215b77192>
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/5000-0050"@en
     
     
+Class: <http://semanticscience.org/resource/SIO_010506>
+
+    
 Class: <http://bio2rdf.org/term#term_07244d4d7b92a59bedd22dd024b91c90>
 
     Annotations: 
@@ -4386,6 +4607,9 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000204>
         rdfs:label "kidney hypoplasia"@,
         rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0003446"@en
     
+    
+Class: <http://semanticscience.org/resource/SIO_000006>
+
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000201>
 
