@@ -4374,7 +4374,8 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000503>
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000400>
 
     Annotations: 
-        rdfs:comment "Fluroacetate, an analog of acetate , is coupled to CoA to form fluroacetyl-CoA by acetate thiokinase -{Voet 2003}-.  Fluroacetyl-CoA is converted to yield 2-flurocitrate through a condensation reaction with oxaloacetate.  The (-)-erythro diastereomer ((2R,3R)-2-flurocitrate) of 2-flurocitrate is then converted to fluoro-cis-aconitate, which is followed by addition of hydroxide and with loss of a fluoride atom to form 4-hydroxy-trans-aconitate (HTn), which binds tightly, but not covalently to the enzyme -{Lauble 1996, Boelsterli 2003}-. Binding of 4-hydroxy-trans-aconitate results in inhibition of aconitase enzyme followed by inhibition of the citric acid cycle."@en
+        rdfs:comment "Fluroacetate, an analog of acetate , is coupled to CoA to form fluroacetyl-CoA by acetate thiokinase -{Voet 2003}-.  Fluroacetyl-CoA is converted to yield 2-flurocitrate through a condensation reaction with oxaloacetate.  The (-)-erythro diastereomer ((2R,3R)-2-flurocitrate) of 2-flurocitrate is then converted to fluoro-cis-aconitate, which is followed by addition of hydroxide and with loss of a fluoride atom to form 4-hydroxy-trans-aconitate (HTn), which binds tightly, but not covalently to the enzyme -{Lauble 1996, Boelsterli 2003}-. Binding of 4-hydroxy-trans-aconitate results in inhibition of aconitase enzyme followed by inhibition of the citric acid cycle."@en,
+        rdfs:label "mechanism of aconitase inhibition by fluoroacetate"@en
     
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000083>,
