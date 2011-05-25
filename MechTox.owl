@@ -48,10 +48,10 @@ ObjectProperty: <http://semanticscience.org/resource/SIO_000139>
 ObjectProperty: <http://semanticscience.org/resource/SIO_000291>
 
     
-ObjectProperty: <http://semanticscience.org/resource/SIO_000323>
+ObjectProperty: <http://semanticscience.org/resource/SIO_000292>
 
     
-ObjectProperty: <http://semanticscience.org/resource/SIO_000292>
+ObjectProperty: <http://semanticscience.org/resource/SIO_000323>
 
     
 ObjectProperty: <http://semanticscience.org/resource/SIO_000053>
@@ -230,15 +230,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000299>
         rdfs:label "thymidylate synthase"
     
     
-Class: <http://semanticscience.org/resource/SIO_000390>
-
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000490>
 
     Annotations: 
         rdfs:label "Hsp90 PAS binding domain"@,
         rdfs:seeAlso "The domain of Hsp90 responsible for the ability to bind to PAS binding domains of other proteins"@en
     
+    
+Class: <http://semanticscience.org/resource/SIO_000390>
+
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000294>
 
@@ -248,6 +248,13 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000294>
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0018214"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
+
+    Annotations: 
+        rdfs:comment "A vitamin k-dependent protein is a protein whose activity is dependent on association of vitamin K as a co factor"@en,
+        rdfs:label "vitamin k-dependent protein"@en
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000499>
 
     Annotations: 
@@ -255,23 +262,7 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000499>
         rdfs:label "transactivation of RAR hormone binding domain containing genes"@en
     
     SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000439>
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000204>)
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000501>)
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000502>)
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000503>)
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000504>)
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000506>)
-         and (<http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000508>)
-         and (<http://semanticscience.org/resource/SIO_000555> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000461>),
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000452>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
-
-    Annotations: 
-        rdfs:comment "A vitamin k-dependent protein is a protein whose activity is dependent on association of vitamin K as a co factor"@en,
-        rdfs:label "vitamin k-dependent protein"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000296>
@@ -438,15 +429,6 @@ Class: <http://bio2rdf.org/term#term_4718d37de05affee8a6a8ed67d7cd90d>
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_32955"@en
     
     
-Class: <http://bio2rdf.org/term#term_b0433806a115f59293bc1e9621418de2>
-
-    Annotations: 
-        rdfs:comment "The process by which an unexpressed gene is activated to serve as a transcription template for synthesis of RNA."@en,
-        rdfs:label "transcriptional activation"@en,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transcriptional_Activation"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D015533"@en
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000096>
 
     Annotations: 
@@ -466,6 +448,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000096>
              and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000085>)
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000016>))),
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000090>
+    
+    
+Class: <http://bio2rdf.org/term#term_b0433806a115f59293bc1e9621418de2>
+
+    Annotations: 
+        rdfs:comment "The process by which an unexpressed gene is activated to serve as a transcription template for synthesis of RNA."@en,
+        rdfs:label "transcriptional activation"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Transcriptional_Activation"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D015533"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000095>
@@ -494,15 +485,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000094>
              and (<http://semanticscience.org/resource/SIO_000356> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000109>))
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000093>
-
-    Annotations: 
-        rdfs:comment "Agents that affect ION PUMPS; ION CHANNELS; ABC TRANSPORTERS; and other MEMBRANE TRANSPORT PROTEINS. Affect may be related to change in ION gradient."@en,
-        rdfs:label "membrane transport modulator",
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D049990"@en,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_38632"@en
-    
-    
 Class: <http://bio2rdf.org/term#term_433d266ffebf8f3a11f07435f2eb5b3d>
 
     Annotations: 
@@ -519,6 +501,15 @@ Class: <http://bio2rdf.org/term#term_433d266ffebf8f3a11f07435f2eb5b3d>
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010043>,
         <http://semanticscience.org/resource/SIO_000292> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000395>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000093>
+
+    Annotations: 
+        rdfs:comment "Agents that affect ION PUMPS; ION CHANNELS; ABC TRANSPORTERS; and other MEMBRANE TRANSPORT PROTEINS. Affect may be related to change in ION gradient."@en,
+        rdfs:label "membrane transport modulator",
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D049990"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_38632"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000092>
@@ -653,26 +644,20 @@ Class: <http://bio2rdf.org/term#term_61db33b7b661709b6e2efdbac17f9e36>
         rdfs:label "sodium fluroacetate"@en
     
     
-Class: <http://bio2rdf.org/term#term_c3edd9d5554857c6d0072cb56ea442ff>
-
-    Annotations: 
-        rdfs:label "binding site"@en,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ligand_Binding_Domain"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/4009-0041"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/EDAM/EDAM_0001854"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D001665"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/69666007"@en,
-        rdfs:seeAlso "http://purl.org/ddi/owl#binding_site"@en,
-        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0001091"@en,
-        rdfs:seeAlso "http://semanticscience.org/resource/SIO_010040"@en,
-        rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#DrugTarget"@en
-    
-    
 Class: <http://bio2rdf.org/term#term_93087b5b4356d0852f986baef7258b9b>
 
     Annotations: 
         rdfs:comment "A transcription inhibitor is a chemical entity which prevents or downregulates transcription."@en,
         rdfs:label "Trancription inhibitor"@en
+    
+    
+Class: <http://bio2rdf.org/term#term_3960c69d2ac9ef6ed048ae17d9360fbf>
+
+    Annotations: 
+        rdfs:comment "Cc1cc2[N]c3c([nH]c(=O)[nH]c3=O)N(C[C@H](O)[C@H](O)[C@H](O)COP(O)(=O)OP(O)(=O)OC[C@H]3O[C@H]([C@H](O)[C@@H]3O)n3cnc4c(N)ncnc34)c2cc1C"@en,
+        rdfs:comment "FADH is the reduced form of  a flavin adenine dinucleotide (FAD) molecule"@en,
+        rdfs:label "flavin adenine dinucleotide"@en,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022570"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000258>
@@ -684,15 +669,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000258>
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MCCL/FMA_84051"@en,
         rdfs:seeAlso "http://purl.obolibrary.org/obo/PR_000001379"@en,
         rdfs:seeAlso "http://sig.uw.edu/fma#Interleukin-2"@en
-    
-    
-Class: <http://bio2rdf.org/term#term_3960c69d2ac9ef6ed048ae17d9360fbf>
-
-    Annotations: 
-        rdfs:comment "Cc1cc2[N]c3c([nH]c(=O)[nH]c3=O)N(C[C@H](O)[C@H](O)[C@H](O)COP(O)(=O)OP(O)(=O)OC[C@H]3O[C@H]([C@H](O)[C@@H]3O)n3cnc4c(N)ncnc34)c2cc1C"@en,
-        rdfs:comment "FADH is the reduced form of  a flavin adenine dinucleotide (FAD) molecule"@en,
-        rdfs:label "flavin adenine dinucleotide"@en,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/PRO_000022570"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000257>
@@ -974,12 +950,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000250>
         rdfs:label "decreased prothrombin synthesis"@en
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000251>
-
-    Annotations: 
-        rdfs:label "decreased thrombin bound to fibrin"
-    
-    
 Class: <http://bio2rdf.org/term#term_2aa177b63f882f7bc0c6e1593e0f3f4a>
 
     Annotations: 
@@ -988,6 +958,12 @@ Class: <http://bio2rdf.org/term#term_2aa177b63f882f7bc0c6e1593e0f3f4a>
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Immunotoxicity"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/1560-0549"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/npo#NPO_1339"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000251>
+
+    Annotations: 
+        rdfs:label "decreased thrombin bound to fibrin"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000252>
@@ -1028,6 +1004,12 @@ Class: <http://bio2rdf.org/term#term_198b6991b76c41b670e1919a81f82231>
         rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0006110"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000269>
+
+    Annotations: 
+        rdfs:label "G1 phase cell cycle arrest"
+    
+    
 Class: <http://bio2rdf.org/term#term_61f0b5130c99cfe24f3291681fcdea9f>
 
     Annotations: 
@@ -1038,12 +1020,6 @@ Class: <http://bio2rdf.org/term#term_61f0b5130c99cfe24f3291681fcdea9f>
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_000627>,
         <http://semanticscience.org/resource/SIO_000218> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000085>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000269>
-
-    Annotations: 
-        rdfs:label "G1 phase cell cycle arrest"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000268>
@@ -1388,18 +1364,18 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000286>
         rdfs:label "DNA modification process"
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000389>
+
+    Annotations: 
+        rdfs:label "AhR nuclear localization sequence"
+    
+    
 Class: <http://bio2rdf.org/term#term_6d882bf92560fb34a45617bd5a0d0202>
 
     Annotations: 
         rdfs:label "hepatocellular injury"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Hepatocellular_Damage"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10019837"@en
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000389>
-
-    Annotations: 
-        rdfs:label "AhR nuclear localization sequence"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000388>
@@ -1680,6 +1656,14 @@ Class: <http://bio2rdf.org/term#term_bf5cc030d8f4be924067dffe8f9dd4f2>
              and (<http://semanticscience.org/resource/SIO_000356> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000109>))
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000020>
+
+    Annotations: 
+        rdfs:comment "Protein kinases that control cell cycle progression in all eukaryotes and require physical association with CYCLINS to achieve full enzymatic activity. Cyclin-dependent kinases are regulated by phosphorylation and dephosphorylation events."@en,
+        rdfs:label "cyclin dependent kinase",
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cyclin-Dependent_Kinase"@en
+    
+    
 Class: <http://bio2rdf.org/term#term_d1dc4e345124fc43ef5afc951e39a3f3>
 
     Annotations: 
@@ -1688,14 +1672,6 @@ Class: <http://bio2rdf.org/term#term_d1dc4e345124fc43ef5afc951e39a3f3>
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010435>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000020>
-
-    Annotations: 
-        rdfs:comment "Protein kinases that control cell cycle progression in all eukaryotes and require physical association with CYCLINS to achieve full enzymatic activity. Cyclin-dependent kinases are regulated by phosphorylation and dephosphorylation events."@en,
-        rdfs:label "cyclin dependent kinase",
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cyclin-Dependent_Kinase"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000028>
@@ -2154,13 +2130,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000157>
              and (<http://semanticscience.org/resource/SIO_000356> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000160>))
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000158>
-
-    Annotations: 
-        rdfs:comment "The binding domain of Hsp90 which binds and hydrolyses ATP."@en,
-        rdfs:label "Hsp90 N-terminal ATP binding domain"@en
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000019>
 
     Annotations: 
@@ -2169,6 +2138,13 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000019>
         rdfs:label "Mitochondrial Electron Transport Complex III"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D014450"@en,
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0045275"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000158>
+
+    Annotations: 
+        rdfs:comment "The binding domain of Hsp90 which binds and hydrolyses ATP."@en,
+        rdfs:label "Hsp90 N-terminal ATP binding domain"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000159>
@@ -2190,18 +2166,18 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000159>
         <http://semanticscience.org/resource/SIO_000311> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000399>
     
     
-Class: <http://bio2rdf.org/term#term_50e67be415974235eb06294d33fb817e>
-
-    Annotations: 
-        rdfs:label "gene signature"@en,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gene_Signature"@en
-    
-    
 Class: <http://bio2rdf.org/term#term_183a59850b0680d6718d1198e5295259>
 
     Annotations: 
         rdfs:label "cellular transport"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Cellular_Transport_Process"@en
+    
+    
+Class: <http://bio2rdf.org/term#term_50e67be415974235eb06294d33fb817e>
+
+    Annotations: 
+        rdfs:label "gene signature"@en,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Gene_Signature"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000142>
@@ -2351,15 +2327,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000149>
         <http://semanticscience.org/resource/SIO_000635> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000345>
     
     
+Class: <http://semanticscience.org/resource/SIO_000562>
+
+    
 Class: <http://bio2rdf.org/mechtox_language#MECHTOX_000001>
 
     Annotations: 
         <http://purl.org/dc/elements/1.1/description> "A five carbon cyclic pentose."@en,
         rdfs:label "sugar moeity"@en
     
-    
-Class: <http://semanticscience.org/resource/SIO_000562>
-
     
 Class: <http://bio2rdf.org/term#term_bc974a57133a594d25f0628de5918611>
 
@@ -2520,14 +2496,14 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000130>
         <http://semanticscience.org/resource/SIO_010046>
     
     
-Class: <http://semanticscience.org/resource/SIO_000577>
-
-    
 Class: <http://bio2rdf.org/term#term_e47dc130d9d13a6a541d1237c832d3fe>
 
     Annotations: 
         rdfs:label "protein chaperone"@en
     
+    
+Class: <http://semanticscience.org/resource/SIO_000577>
+
     
 Class: <http://bio2rdf.org/term#term_f462d40ce0fbedfb836819f076a226f5>
 
@@ -2627,9 +2603,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000039>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000040>
     
     
-Class: <http://semanticscience.org/resource/SIO_000575>
-
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000136>
 
     Annotations: 
@@ -2672,6 +2645,9 @@ the above mechanism can be broken down into the following subprocesses:
                             (<http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000321>
                              and (<http://semanticscience.org/resource/SIO_000248> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000322>))))))))))
     
+    
+Class: <http://semanticscience.org/resource/SIO_000575>
+
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000137>
 
@@ -3330,6 +3306,9 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000089>
              and (<http://semanticscience.org/resource/SIO_000356> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000099>))
     
     
+Class: <http://semanticscience.org/resource/SIO_010374>
+
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000088>
 
     Annotations: 
@@ -3370,17 +3349,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000071>
              and (<http://semanticscience.org/resource/SIO_000356> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000073>))
     
     
-Class: <http://bio2rdf.org/term#term_7e6e4eb3ff27864637756cb4d2a2a45d>
-
-    Annotations: 
-        rdfs:label "irreversible"@en,
-        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Irreversible"@en,
-        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#irreversible"@en
-    
-    SubClassOf: 
-        owl:Thing
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000072>
 
     Annotations: 
@@ -3402,6 +3370,20 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000072>
              and (<http://semanticscience.org/resource/SIO_000668> some <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>))),
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000400>
     
+    
+Class: <http://bio2rdf.org/term#term_7e6e4eb3ff27864637756cb4d2a2a45d>
+
+    Annotations: 
+        rdfs:label "irreversible"@en,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Irreversible"@en,
+        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#irreversible"@en
+    
+    SubClassOf: 
+        owl:Thing
+    
+    
+Class: <http://semanticscience.org/resource/SIO_010368>
+
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000073>
 
@@ -3440,9 +3422,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000073>
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000071>))),
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000400>
     
-    
-Class: <http://semanticscience.org/resource/SIO_010368>
-
     
 Class: <http://semanticscience.org/resource/SIO_010367>
 
@@ -3669,6 +3648,9 @@ Class: <http://semanticscience.org/resource/SIO_010349>
 Class: <http://semanticscience.org/resource/SIO_000615>
 
     
+Class: <http://semanticscience.org/resource/SIO_010347>
+
+    
 Class: <http://semanticscience.org/resource/SIO_010355>
 
     
@@ -3742,14 +3724,14 @@ Class: <http://semanticscience.org/resource/SIO_010074>
 Class: <http://semanticscience.org/resource/SIO_010076>
 
     
-Class: <http://semanticscience.org/resource/SIO_010358>
-
-    
 Class: <http://bio2rdf.org/term#term_7a31b90305e06f771b6e86baa9e620b7>
 
     Annotations: 
         rdfs:label "hydrophillic"@en
     
+    
+Class: <http://semanticscience.org/resource/SIO_010358>
+
     
 Class: <http://semanticscience.org/resource/SIO_010046>
 
@@ -3788,6 +3770,9 @@ Class: <http://semanticscience.org/resource/SIO_010043>
 Class: <http://semanticscience.org/resource/SIO_010040>
 
     
+Class: <http://semanticscience.org/resource/SIO_010532>
+
+    
 Class: <http://bio2rdf.org/term#term_cae283fdc04297773e831e837af252c9>
 
     Annotations: 
@@ -3796,9 +3781,6 @@ Class: <http://bio2rdf.org/term#term_cae283fdc04297773e831e837af252c9>
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Carcinogenesis"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/CSP/2031-1660"@en
     
-    
-Class: <http://semanticscience.org/resource/SIO_010532>
-
     
 Class: <http://bio2rdf.org/term#term_d9d17d7782fa7b5e5a8a0c09bd096e39>
 
@@ -3851,10 +3833,10 @@ Class: <http://bio2rdf.org/term#term_d566c7267a302b49c5a1543025ff8310>
         rdfs:seeAlso "http://www.pamgene.com/ontology/K2P.owl#Kinase"@en
     
     
-Class: <http://semanticscience.org/resource/SIO_010056>
+Class: <http://semanticscience.org/resource/SIO_000627>
 
     
-Class: <http://semanticscience.org/resource/SIO_000627>
+Class: <http://semanticscience.org/resource/SIO_010056>
 
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000117>
@@ -4028,11 +4010,13 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000125>
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000128>
 
     Annotations: 
+        rdfs:comment "Hsp90 is a chaperone protein that uses ATP to refold a protein. It first exposes a hydrophobic site (near the c-terminus), binds the target protein, and uses ATP to change its conformation, which induces a conformational change in the target protein."@en,
         rdfs:label "Hsp90 refolding of Hsp90 client proteins"@en
     
     SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010013>
-         and (<http://semanticscience.org/resource/SIO_000139> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000159>)
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000500>,
+        <http://semanticscience.org/resource/SIO_000139> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000159>,
+        <http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000167>
     
     
 Class: <http://bio2rdf.org/term#term_73f8029bfc5d3d75e1877819f62319d8>
@@ -4171,6 +4155,14 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000129>
          and (<http://semanticscience.org/resource/SIO_000292> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000137>)
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000510>
+
+    Annotations: 
+        rdfs:comment "The process of assisting in the covalent and noncovalent assembly of single chain polypeptides or multisubunit complexes into the correct tertiary structure."@en,
+        rdfs:label "protein folding"@,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006457"@en
+    
+    
 Class: <http://semanticscience.org/resource/SIO_010036>
 
     
@@ -4235,14 +4227,14 @@ Class: <http://semanticscience.org/resource/SIO_010003>
 Class: <http://semanticscience.org/resource/SIO_010002>
 
     
+Class: <http://semanticscience.org/resource/SIO_010001>
+
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000408>
 
     Annotations: 
         rdfs:label "nucleus"
     
-    
-Class: <http://semanticscience.org/resource/SIO_010001>
-
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000409>
 
@@ -4253,12 +4245,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000409>
     
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000391>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000406>
-
-    Annotations: 
-        rdfs:label "nuclear pore"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000501>
@@ -4272,10 +4258,10 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000501>
         <http://semanticscience.org/resource/SIO_010056>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000407>
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000406>
 
     Annotations: 
-        rdfs:label "nuclear plasma membrane"
+        rdfs:label "nuclear pore"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000502>
@@ -4291,6 +4277,12 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000502>
         <http://semanticscience.org/resource/SIO_010056>
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000407>
+
+    Annotations: 
+        rdfs:label "nuclear plasma membrane"
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000404>
 
     Annotations: 
@@ -4300,6 +4292,17 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000404>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000439>,
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000380>,
         <http://semanticscience.org/resource/SIO_000636> some <http://bio2rdf.org/term#term_cae283fdc04297773e831e837af252c9>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000500>
+
+    Annotations: 
+        rdfs:comment "The process carried out by a cell that restores the biological activity of an unfolded or misfolded protein, using helper proteins such as chaperones"@en,
+        rdfs:label "protein refolding"@,
+        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0042026"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000510>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000405>
@@ -4319,13 +4322,11 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000405>
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000401>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000505>
+Class: <http://bio2rdf.org/term#term_fbec9ae8be16065d639b818a6fbdadad>
 
     Annotations: 
-        rdfs:label "atrisia ani"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010056>
+        rdfs:comment "A Retinoid receptor inhibbitor is a chemical entity which inhibits the function or actions of retinoic receptors."@en,
+        rdfs:label "Retinoid receptor inhibitor"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000402>
@@ -4337,17 +4338,10 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000402>
         <http://semanticscience.org/resource/SIO_010285>
     
     
-Class: <http://bio2rdf.org/term#term_fbec9ae8be16065d639b818a6fbdadad>
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000505>
 
     Annotations: 
-        rdfs:comment "A Retinoid receptor inhibbitor is a chemical entity which inhibits the function or actions of retinoic receptors."@en,
-        rdfs:label "Retinoid receptor inhibitor"@en
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000506>
-
-    Annotations: 
-        rdfs:label "tail malformations"@en
+        rdfs:label "atrisia ani"@
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010056>
@@ -4357,6 +4351,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000403>
 
     Annotations: 
         rdfs:label "TCDD-AhR-ps23-ara9-ARnT complex DNA bound to dioxin response element"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000506>
+
+    Annotations: 
+        rdfs:label "tail malformations"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010056>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000400>
@@ -4397,7 +4400,9 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000503>
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000504>
 
     Annotations: 
+        rdfs:comment "The failure of one or both testes of a male fetus to descend from the abdomen into the scrotum during the late part of pregnancy. If not surgically corrected in early childhood, males may be at increased risk for testicular cancer later in life."@en,
         rdfs:label "undescended testis"@,
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Undescended_Testis"@en,
         rdfs:seeAlso "http://purl.bioontology.org/ontology/MDR/10045506"@en
     
     SubClassOf: 
@@ -4450,15 +4455,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000507>
         <http://semanticscience.org/resource/SIO_010056>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000508>
-
-    Annotations: 
-        rdfs:label "fetal weight retardation"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010056>
-    
-    
 Class: <http://bio2rdf.org/term#term_412ba84716f4b13e52ae259fd7871e04>
 
     Annotations: 
@@ -4480,6 +4476,15 @@ Class: <http://bio2rdf.org/term#term_412ba84716f4b13e52ae259fd7871e04>
         rdfs:seeAlso "http://purl.org/obo/owl/MPATH#MPATH_218"@en,
         rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0000616"@en,
         rdfs:seeAlso "http://www.ifomis.org/acgt/1.0#Neoplasm"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000508>
+
+    Annotations: 
+        rdfs:label "fetal weight retardation"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010056>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000100>
@@ -4542,22 +4547,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000009>
         rdfs:label "ribonucleotide"
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000008>
-
-    Annotations: 
-        rdfs:label "decreased enzymatic isomerization of citrate to isocitrate"@
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000065>,
-        <http://semanticscience.org/resource/SIO_000217> some 
-            (<http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000127>
-             and (<http://semanticscience.org/resource/SIO_000735> some 
-                (<http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000127>
-                 and (<http://semanticscience.org/resource/SIO_000218> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000065>)))),
-        <http://semanticscience.org/resource/SIO_000554> some <http://bio2rdf.org/term#term_736e5e1b4a4393e12a524b95d1e4b475>,
-        <http://semanticscience.org/resource/SIO_000555> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000082>
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000103>
 
     Annotations: 
@@ -4578,6 +4567,22 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000103>
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000087>))),
         <http://semanticscience.org/resource/SIO_000313> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000090>,
         <http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000104>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000008>
+
+    Annotations: 
+        rdfs:label "decreased enzymatic isomerization of citrate to isocitrate"@
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000065>,
+        <http://semanticscience.org/resource/SIO_000217> some 
+            (<http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000127>
+             and (<http://semanticscience.org/resource/SIO_000735> some 
+                (<http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000127>
+                 and (<http://semanticscience.org/resource/SIO_000218> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000065>)))),
+        <http://semanticscience.org/resource/SIO_000554> some <http://bio2rdf.org/term#term_736e5e1b4a4393e12a524b95d1e4b475>,
+        <http://semanticscience.org/resource/SIO_000555> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000082>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000106>
@@ -4613,17 +4618,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000005>
         rdfs:label "pyrimidine nucleobases"
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000107>
-
-    Annotations: 
-        rdfs:comment "Any heteroorganic entity containing at least one carbon-nitrogen bond."@en,
-        rdfs:label "organonitrogen compoound"@,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_35352"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000108>
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000004>
 
     Annotations: 
@@ -4633,6 +4627,17 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000004>
     
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000472>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000107>
+
+    Annotations: 
+        rdfs:comment "Any heteroorganic entity containing at least one carbon-nitrogen bond."@en,
+        rdfs:label "organonitrogen compoound"@,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_35352"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000108>
     
     
 Class: <http://semanticscience.org/resource/SIO_010299>
@@ -4699,12 +4704,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000001>
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Pentose"@en
     
     
-Class: <http://bio2rdf.org/term#term_8c5a34fd0d95646cb7b761ced2c19637>
-
-    Annotations: 
-        rdfs:label "proton concentration gradient"@en
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000003>
 
     Annotations: 
@@ -4716,8 +4715,11 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000003>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000006>
     
     
-Class: <http://semanticscience.org/resource/SIO_010296>
+Class: <http://bio2rdf.org/term#term_8c5a34fd0d95646cb7b761ced2c19637>
 
+    Annotations: 
+        rdfs:label "proton concentration gradient"@en
+    
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000002>
 
@@ -4729,6 +4731,9 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000002>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000004>
     
     
+Class: <http://semanticscience.org/resource/SIO_010296>
+
+    
 Class: <http://semanticscience.org/resource/SIO_010013>
 
     
@@ -4737,6 +4742,16 @@ Class: <http://bio2rdf.org/term#term_9c696fda0fcceb189514ac6bc0a95f8e>
     Annotations: 
         rdfs:label "nuclear translocation"@en,
         rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Nuclear_Translocation"@en
+    
+    
+Class: <http://bio2rdf.org/term#term_76d8f3a9864ef3c10d77234aa125dd90>
+
+    Annotations: 
+        rdfs:comment "A sodium transport channel is a membrane transport protein which facilitates transport of sodium ions across the lipid bilayer."@en,
+        rdfs:label "sodium transport channel"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000155>
     
     
 Class: <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>
@@ -4770,16 +4785,6 @@ Class: <http://bio2rdf.org/term#term_d32f914944620b58ec15d180cd5e3cae>
         <http://semanticscience.org/resource/SIO_000292> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000072>
     
     
-Class: <http://bio2rdf.org/term#term_76d8f3a9864ef3c10d77234aa125dd90>
-
-    Annotations: 
-        rdfs:comment "A sodium transport channel is a membrane transport protein which facilitates transport of sodium ions across the lipid bilayer."@en,
-        rdfs:label "sodium transport channel"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000155>
-    
-    
 Class: <http://semanticscience.org/resource/SIO_010435>
 
     
@@ -4809,6 +4814,16 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000420>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000418>
     
     
+Class: <http://bio2rdf.org/term#term_03649956779e36a9429b47c85945b409>
+
+    Annotations: 
+        rdfs:comment "An IkBa phosphorylation inhibitor is a chemical entity which inhibits the phosphorylation of 'nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha' (IkBa)"@en,
+        rdfs:label "IκBα phosphorylation inhibitor"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010435>
+    
+    
 Class: <http://bio2rdf.org/term#term_88bd20317717141e3eb7558b5eaeda99>
 
     Annotations: 
@@ -4820,16 +4835,6 @@ Class: <http://bio2rdf.org/term#term_88bd20317717141e3eb7558b5eaeda99>
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010410>
-    
-    
-Class: <http://bio2rdf.org/term#term_03649956779e36a9429b47c85945b409>
-
-    Annotations: 
-        rdfs:comment "An IkBa phosphorylation inhibitor is a chemical entity which inhibits the phosphorylation of 'nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha' (IkBa)"@en,
-        rdfs:label "IκBα phosphorylation inhibitor"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010435>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000423>
@@ -4897,12 +4902,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000426>
         <http://semanticscience.org/resource/SIO_010299>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000362>
-
-    Annotations: 
-        rdfs:label "diglutathionyl mercury complex formation"
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000429>
 
     Annotations: 
@@ -4913,15 +4912,10 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000429>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000428>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000428>
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000362>
 
     Annotations: 
-        rdfs:comment "An abnormality of the electrical conduction system of the heart"@en,
-        rdfs:label "abnormality of cardiac conduction",
-        rdfs:seeAlso "http://purl.org/obo/owl/HP#HP_0001665"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000426>
+        rdfs:label "diglutathionyl mercury complex formation"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000361>
@@ -4937,15 +4931,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000361>
              and (<http://semanticscience.org/resource/SIO_000356> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000367>))
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000228>
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000428>
 
     Annotations: 
-        rdfs:comment "A compound in which a hydroxy group, -OH, is attached to a saturated carbon atom"@en,
-        rdfs:label "alcohol"@,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_30879"@en
+        rdfs:comment "An abnormality of the electrical conduction system of the heart"@en,
+        rdfs:label "abnormality of cardiac conduction",
+        rdfs:seeAlso "http://purl.org/obo/owl/HP#HP_0001665"@en
     
     SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000300>
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000426>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000367>
@@ -4966,6 +4960,17 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000367>
             (<http://semanticscience.org/resource/SIO_010365>
              and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000361>)
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000364>))
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000228>
+
+    Annotations: 
+        rdfs:comment "A compound in which a hydroxy group, -OH, is attached to a saturated carbon atom"@en,
+        rdfs:label "alcohol"@,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_30879"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000300>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000368>
@@ -4990,6 +4995,12 @@ A class of sex hormones associated with the development and maintenance of secon
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50114"@en
     
     
+Class: <http://bio2rdf.org/term#term_6e8197360d156d747ab6170200f8985c>
+
+    Annotations: 
+        rdfs:label "irreversible inhibition"@en
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000369>
 
     Annotations: 
@@ -5008,12 +5019,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000369>
             (<http://semanticscience.org/resource/SIO_010365>
              and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000365>)
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000370>))
-    
-    
-Class: <http://bio2rdf.org/term#term_6e8197360d156d747ab6170200f8985c>
-
-    Annotations: 
-        rdfs:label "irreversible inhibition"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000363>
@@ -5058,18 +5063,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000220>
         rdfs:label "corepressor protein"
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000221>
-
-    Annotations: 
-        rdfs:comment "An antiviral antibiotic produced by Cephalosporium aphidicola and other fungi. It inhibits the growth of eukaryotic cells and certain animal viruses by selectively inhibiting the cellular replication of DNA polymerase II or the viral-induced DNA polymerases. The drug may be useful for controlling excessive cell proliferation in patients with cancer, psoriasis or other dermatitis with little or no adverse effect upon non-multiplying cells."@en,
-        rdfs:comment "PubChem:45796"@en,
-        rdfs:comment "smiles:OC[C@@]4(O)CC[C@]31C[C@H]4C[C@@H]3CC[C@H]2[C@](C)(CO)[C@H](O)CC[C@]12C"@en,
-        rdfs:label "aphidicolin",
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D016590"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7757200458158"@en,
-        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0003207"@en
-    
-    
 Class: <http://bio2rdf.org/term#term_765dc7900bb3dc42bb8007818af3fe17>
 
     Annotations: 
@@ -5090,6 +5083,18 @@ Class: <http://bio2rdf.org/term#term_4a1651b2fc5209af6062f1ecf676d86a>
 
     Annotations: 
         rdfs:label "protonophoric mechansim"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000221>
+
+    Annotations: 
+        rdfs:comment "An antiviral antibiotic produced by Cephalosporium aphidicola and other fungi. It inhibits the growth of eukaryotic cells and certain animal viruses by selectively inhibiting the cellular replication of DNA polymerase II or the viral-induced DNA polymerases. The drug may be useful for controlling excessive cell proliferation in patients with cancer, psoriasis or other dermatitis with little or no adverse effect upon non-multiplying cells."@en,
+        rdfs:comment "PubChem:45796"@en,
+        rdfs:comment "smiles:OC[C@@]4(O)CC[C@]31C[C@H]4C[C@@H]3CC[C@H]2[C@](C)(CO)[C@H](O)CC[C@]12C"@en,
+        rdfs:label "aphidicolin"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/D016590"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/NDFRT/C7757200458158"@en,
+        rdfs:seeAlso "http://www.ebi.ac.uk/efo/EFO_0003207"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000222>
@@ -5224,15 +5229,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000411>
         <http://semanticscience.org/resource/SIO_010043>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000418>
-
-    Annotations: 
-        rdfs:label "cofactor"
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010410>
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000351>
 
     Annotations: 
@@ -5243,6 +5239,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000351>
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000451>,
         <http://semanticscience.org/resource/SIO_000635> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000350>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000418>
+
+    Annotations: 
+        rdfs:label "cofactor"
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010410>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000350>
@@ -5296,17 +5301,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000419>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000418>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000219>
-
-    Annotations: 
-        rdfs:comment "A compound that contains two hydroxy groups, generally assumed to be, but not necessarily, alcoholic. Aliphatic diols are also called glycols."@en,
-        rdfs:label "diol"@,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_23824"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000228>
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000358>
 
     Annotations: 
@@ -5327,6 +5321,17 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000358>
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000198>))
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000219>
+
+    Annotations: 
+        rdfs:comment "A compound that contains two hydroxy groups, generally assumed to be, but not necessarily, alcoholic. Aliphatic diols are also called glycols."@en,
+        rdfs:label "diol"@,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_23824"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000228>
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000359>
 
     Annotations: 
@@ -5338,15 +5343,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000359>
         <http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000378>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000217>
-
-    Annotations: 
-        rdfs:label "retinoid X receptor gamma"
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000356>
 
     Annotations: 
@@ -5354,6 +5350,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000356>
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010002>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000217>
+
+    Annotations: 
+        rdfs:label "retinoid X receptor gamma"
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000218>
@@ -5457,28 +5462,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000215>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>
     
     
-Class: <http://bio2rdf.org/term#term_001a249da602f82e2d14784bf74be8fa>
-
-    Annotations: 
-        rdfs:label "binding"@en,
-        rdfs:seeAlso "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule."@en,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Binding"@en,
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Molecular_Interaction"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/CCO/CCO_F0001633"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/GO/GO_0005488"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/LNC/LP20745-3"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/MSH/Q000493"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/RCD/X79uB"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/SNOMEDCT/257768005"@en,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/INO_0000036"@en,
-        rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0005488"@en,
-        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0001091"@en,
-        rdfs:seeAlso "http://purl.org/obo/owl/SO#SO_0100018"@en,
-        rdfs:seeAlso "http://www.bootstrep.eu/ontology/GRO#Binding"@en,
-        rdfs:seeAlso "http://www.co-ode.org/ontologies/galen#Binding"@en,
-        rdfs:seeAlso "http://www.mygrid.org.uk/ontology/JERMOntology#binding"@en
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000216>
 
     Annotations: 
@@ -5500,17 +5483,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000213>
         <http://bio2rdf.org/term#term_5cf31ab49362c67a336f566a72fe61cc>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>
-
-    Annotations: 
-        rdfs:comment "Human nuclear Retinoid X Receptors RXRA, RXRB, and RXRG (NR2/RXR Family) are transcriptional regulators composed of N-terminal modulating domain, DNA-binding domain (AGGTCA response elements), and C-terminal 9-cis RA-binding domain. RXR homodimers and RXR/RAR heterodimers mediate distinct retinoic acid response pathways. RXRs also interact with TH- and vitamin D receptors, and with NCOA3, NCOA6, PML, and PPARG coactivators; and mediate RA biological effects by binding to specific target gene promoters and inducing target gene transcription. RXRs/LXRs and RXRs/FXR may mediate cholesterol homeostasis, by governing cholesterol transport from peripheral cells, inhibiting cholesterol absorption in the small intestine, and repressing bile acid synthesis through upregulation of ABC1 and repression of CYP7A1 expression. (NCI)"@en,
-        rdfs:label "retinoid X receptor",
-        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Retinoid-X_Receptor"
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000498>
-    
-    
 Class: <http://bio2rdf.org/term#term_d7bbd5ca151d0296f70135f84d9e1c60>
 
     Annotations: 
@@ -5527,6 +5499,17 @@ Class: <http://bio2rdf.org/term#term_d7bbd5ca151d0296f70135f84d9e1c60>
         rdfs:seeAlso "http://purl.org/obo/owl/FMA#FMA_67843"@en,
         rdfs:seeAlso "http://sig.uw.edu/fma#Actin"@en,
         rdfs:seeAlso "http://www.semanticweb.org/ontologies/2008/8/SPO_lightweight_merged.owl#Actin"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>
+
+    Annotations: 
+        rdfs:comment "Human nuclear Retinoid X Receptors RXRA, RXRB, and RXRG (NR2/RXR Family) are transcriptional regulators composed of N-terminal modulating domain, DNA-binding domain (AGGTCA response elements), and C-terminal 9-cis RA-binding domain. RXR homodimers and RXR/RAR heterodimers mediate distinct retinoic acid response pathways. RXRs also interact with TH- and vitamin D receptors, and with NCOA3, NCOA6, PML, and PPARG coactivators; and mediate RA biological effects by binding to specific target gene promoters and inducing target gene transcription. RXRs/LXRs and RXRs/FXR may mediate cholesterol homeostasis, by governing cholesterol transport from peripheral cells, inhibiting cholesterol absorption in the small intestine, and repressing bile acid synthesis through upregulation of ABC1 and repression of CYP7A1 expression. (NCI)"@en,
+        rdfs:label "retinoid X receptor",
+        rdfs:seeAlso "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Retinoid-X_Receptor"
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000498>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000445>
@@ -5728,6 +5711,13 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000348>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000349>
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000246>
+
+    Annotations: 
+        rdfs:comment "Gamma-glutamyl carboxylase oxidizes Vitamin K hydroquinone to Vitamin K 2,3 epoxide, while simultaneously adding CO2 to protein-bound glutamic acid (abbreviation = Glu) to form gamma-carboxyglutamic acid (also called gamma-carboxyglutamate, abbreviation = Gla). The carboxylation reaction will only proceed if the carboxylase enzyme is able to oxidize vitamin K hydroquinone to vitamin K epoxide at the same time; the carboxylation and epoxidation reactions are said to be coupled reactions."@en,
+        rdfs:label "gamma-carboxylation of vitamin K-dependent proteins"
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000349>
 
     Annotations: 
@@ -5738,13 +5728,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000349>
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000428>,
         <http://semanticscience.org/resource/SIO_000635> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000339>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000246>
-
-    Annotations: 
-        rdfs:comment "Gamma-glutamyl carboxylase oxidizes Vitamin K hydroquinone to Vitamin K 2,3 epoxide, while simultaneously adding CO2 to protein-bound glutamic acid (abbreviation = Glu) to form gamma-carboxyglutamic acid (also called gamma-carboxyglutamate, abbreviation = Gla). The carboxylation reaction will only proceed if the carboxylase enzyme is able to oxidize vitamin K hydroquinone to vitamin K epoxide at the same time; the carboxylation and epoxidation reactions are said to be coupled reactions."@en,
-        rdfs:label "gamma-carboxylation of vitamin K-dependent proteins"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000247>
@@ -5799,6 +5782,12 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000245>
         rdfs:label "depletion of vitamin k"
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000230>
+
+    Annotations: 
+        rdfs:label "estrogen antagonist"
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000436>
 
     Annotations: 
@@ -5806,12 +5795,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000436>
     
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000414>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000230>
-
-    Annotations: 
-        rdfs:label "estrogen antagonist"
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000435>
@@ -5876,6 +5859,13 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000430>
         <http://semanticscience.org/resource/SIO_000554> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000431>
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000439>
+
+    Annotations: 
+        rdfs:comment "Transactivation is an increased rate of gene expression triggered either by biological processes or by artificial means."@en,
+        rdfs:label "gene transactivation"@en
+    
+    
 Class: <http://bio2rdf.org/term#term_c635660cc3c783a356b0e767c24000cb>
 
     Annotations: 
@@ -5887,21 +5877,14 @@ Class: <http://bio2rdf.org/term#term_c635660cc3c783a356b0e767c24000cb>
         rdfs:seeAlso "http://purl.org/obo/owl/GO#GO_0006096"@en
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000439>
-
-    Annotations: 
-        rdfs:comment "Transactivation is an increased rate of gene expression triggered either by biological processes or by artificial means."@en,
-        rdfs:label "gene transactivation"@en
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000438>
 
     Annotations: 
         rdfs:label "TCDD-AhR-ps23-ara9-ARnT complex formation"
     
     SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010285>,
-        (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000390>)
+        <http://semanticscience.org/resource/SIO_010285>
+         and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000390>)
          and (<http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000405>)
          and (<http://semanticscience.org/resource/SIO_000312> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000401>),
         <http://semanticscience.org/resource/SIO_000355> some 
@@ -6041,23 +6024,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000238>
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000235>
-
-    Annotations: 
-        rdfs:label "vitamin K-dependent coagulation factor II"@en,
-        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/176930"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000338>
-
-    Annotations: 
-        rdfs:label "sodium ion",
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_29101"@en
-    
-    
 Class: <http://bio2rdf.org/term#term_b745d21b8f0540111080249f291b63b9>
 
     Annotations: 
@@ -6082,6 +6048,32 @@ Class: <http://bio2rdf.org/term#term_b745d21b8f0540111080249f291b63b9>
         rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_57925"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000235>
+
+    Annotations: 
+        rdfs:label "vitamin K-dependent coagulation factor II"@en,
+        rdfs:seeAlso "http://purl.bioontology.org/ontology/OMIM/176930"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000338>
+
+    Annotations: 
+        rdfs:label "sodium ion",
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_29101"@en
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000236>
+
+    Annotations: 
+        rdfs:label "vitamin K-dependent coagulation factor VII"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000339>
 
     Annotations: 
@@ -6100,13 +6092,10 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000339>
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000335>))
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000236>
+Class: <http://bio2rdf.org/term#term_e7ae1571b398a477ea6c78be47d4defb>
 
     Annotations: 
-        rdfs:label "vitamin K-dependent coagulation factor VII"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000293>
+        rdfs:label "intracellular cAMP increase"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000233>
@@ -6120,12 +6109,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000233>
     
     SubClassOf: 
         <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000295>
-    
-    
-Class: <http://bio2rdf.org/term#term_e7ae1571b398a477ea6c78be47d4defb>
-
-    Annotations: 
-        rdfs:label "intracellular cAMP increase"@en
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000234>
@@ -6170,16 +6153,13 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000463>
         rdfs:label "raloxifen-ER complex formation"
     
     
-Class: <http://semanticscience.org/resource/SIO_000024>
-
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000464>
 
     Annotations: 
         rdfs:label "estrogen receptor hormone binding domain"@en
     
     
-Class: <http://semanticscience.org/resource/SIO_000023>
+Class: <http://semanticscience.org/resource/SIO_000024>
 
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000465>
@@ -6187,6 +6167,9 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000465>
     Annotations: 
         rdfs:label "aphidicolin-DNA pol a complex formation"
     
+    
+Class: <http://semanticscience.org/resource/SIO_000023>
+
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000466>
 
@@ -6261,6 +6244,9 @@ Class: <http://bio2rdf.org/term#term_95307dd6eb8109265b2854462bc45c93>
         <http://semanticscience.org/resource/SIO_010435>
     
     
+Class: <http://semanticscience.org/resource/SIO_010509>
+
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000461>
 
     Annotations: 
@@ -6281,9 +6267,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000461>
              and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000460>)
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000458>))
     
-    
-Class: <http://semanticscience.org/resource/SIO_010509>
-
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000329>
 
@@ -6532,10 +6515,14 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000455>
         rdfs:label "bexarotene-RAR-RXR-CoRepressor complex"@en
     
     SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010497>,
-        (<http://semanticscience.org/resource/SIO_000369> some <http://bio2rdf.org/term#term_5cf31ab49362c67a336f566a72fe61cc>)
+        <http://semanticscience.org/resource/SIO_010497>
          and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000199>)
-         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>),
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000214>)
+         and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000453>)
+         and (<http://semanticscience.org/resource/SIO_000369> some 
+            (<http://bio2rdf.org/term#term_5cf31ab49362c67a336f566a72fe61cc>
+             and (<http://semanticscience.org/resource/SIO_000335> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000199>)
+             and (<http://semanticscience.org/resource/SIO_000369> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000497>))),
         <http://semanticscience.org/resource/SIO_000311> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000457>
     
     
@@ -6606,16 +6593,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000317>
         <http://semanticscience.org/resource/SIO_000096> some <http://semanticscience.org/resource/SIO_010001>
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000316>
-
-    Annotations: 
-        rdfs:label "negative regulation of mitochondrial complex 1"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/resource/SIO_010296>,
-        <http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000135>
-    
-    
 Class: <http://bio2rdf.org/term#term_413f3a95ae27698164bdadf55b0bef8c>
 
     Annotations: 
@@ -6628,11 +6605,24 @@ Class: <http://bio2rdf.org/term#term_413f3a95ae27698164bdadf55b0bef8c>
         rdfs:seeAlso "http://www.stanford.edu/~coulet/phare.owl#Oxidation"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000316>
+
+    Annotations: 
+        rdfs:label "negative regulation of mitochondrial complex 1"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/resource/SIO_010296>,
+        <http://semanticscience.org/resource/SIO_000291> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000135>
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000315>
 
     Annotations: 
         rdfs:label "nephron"@
     
+    
+Class: <http://semanticscience.org/resource/SIO_010517>
+
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000314>
 
@@ -6653,9 +6643,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000314>
              and (<http://semanticscience.org/resource/SIO_000236> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000309>)
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000135>)))
     
-    
-Class: <http://semanticscience.org/resource/SIO_010517>
-
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000313>
 
@@ -6747,15 +6734,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000487>
         rdfs:label "differential expression of estrogen receptor genes"
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000481>
-
-    Annotations: 
-        rdfs:label "decreased interleukin-2 transcription in immunocompetent T-cells"
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000475>
-    
-    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000203>
 
     Annotations: 
@@ -6765,6 +6743,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000203>
     
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010043>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000481>
+
+    Annotations: 
+        rdfs:label "decreased interleukin-2 transcription in immunocompetent T-cells"
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000475>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000306>
@@ -6797,6 +6784,22 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000305>
         rdfs:label "increased intracellular [Ca2+]"@en
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000205>
+
+    Annotations: 
+        rdfs:label "pyridinium ion"@,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50334"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000206>
+    
+    
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000483>
+
+    Annotations: 
+        rdfs:label "acetylcholinesterase"
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000308>
 
     Annotations: 
@@ -6812,20 +6815,15 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000308>
              and (<http://semanticscience.org/resource/SIO_000668> some <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000309>))
     
     
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000483>
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000204>
 
     Annotations: 
-        rdfs:label "acetylcholinesterase"
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000205>
-
-    Annotations: 
-        rdfs:label "pyridinium ion"@,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_50334"@en
+        rdfs:comment "underdevelopment or reduced size of the kidney, usually due to a reduced number of cells"@en,
+        rdfs:label "kidney hypoplasia",
+        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0003446"@en
     
     SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000206>
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000377>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000307>
@@ -6852,17 +6850,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000482>
 
     Annotations: 
         rdfs:label "immune system disorder"@en
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000204>
-
-    Annotations: 
-        rdfs:comment "underdevelopment or reduced size of the kidney, usually due to a reduced number of cells"@en,
-        rdfs:label "kidney hypoplasia",
-        rdfs:seeAlso "http://purl.org/obo/owl/MP#MP_0003446"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000377>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000309>
@@ -6955,6 +6942,16 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000301>
         <http://semanticscience.org/resource/SIO_011125>
     
     
+Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000209>
+
+    Annotations: 
+        rdfs:label "benzenediol"@,
+        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_33570"@en
+    
+    SubClassOf: 
+        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000210>
+    
+    
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000304>
 
     Annotations: 
@@ -6965,16 +6962,6 @@ Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000304>
     SubClassOf: 
         <http://semanticscience.org/resource/SIO_010296>,
         <http://semanticscience.org/resource/SIO_000554> some <http://bio2rdf.org/term#term_736e5e1b4a4393e12a524b95d1e4b475>
-    
-    
-Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000209>
-
-    Annotations: 
-        rdfs:label "benzenediol"@,
-        rdfs:seeAlso "http://purl.obolibrary.org/obo/CHEBI_33570"@en
-    
-    SubClassOf: 
-        <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000210>
     
     
 Class: <http://semanticscience.org/ontology/MechTox.owl#MECHTOX_000303>
