@@ -21,3 +21,6 @@ rm ../tmp_mechtox.nt
 sed -i0 's/"h/<h/g' ../mechtox_mapping.nt
 sed -i0 's/"@en \./> \./g' ../mechtox_mapping.nt
 sed -i0 's/" \./> \./g' ../mechtox_mapping.nt
+
+#replace see also with owl:equivalentClass
+sed -i0 's/<http\:\/\/www\.w3\.org\/2000\/01\/rdf-schema#seeAlso>/<http:\/\/www\.w3\.org\/2002\/07\/owl#equivalentClass>/g' ../mechtox_mapping.nt
